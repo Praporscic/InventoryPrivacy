@@ -129,6 +129,19 @@ a:hover { text-decoration-thickness: 2px; }
   .hero-art img { width: min(220px, 60%); }
 }
 
+.page-hero { text-align: center; }
+.page-hero .wrap { padding-top: 3rem; padding-bottom: 2.6rem; }
+.page-hero h1 { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.15; margin: 0 0 .6rem; letter-spacing: -.02em; }
+.page-hero .lead { margin: 0 auto; font-size: 1.05rem; color: var(--muted); }
+
+.policy {
+  max-width: 780px; margin: 0 auto; padding: 2rem 2rem 2.2rem;
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow);
+}
+.policy > :first-child { margin-top: 0; }
+.policy > :last-child { margin-bottom: 0; }
+@media (max-width: 560px) { .policy { padding: 1.3rem 1.1rem 1.5rem; } }
+
 /* ---------- Sections ---------- */
 .section { padding: 3.5rem 0; }
 .section.alt { background: var(--bg-soft); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
