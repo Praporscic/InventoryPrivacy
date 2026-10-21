@@ -13,6 +13,7 @@ ui:
   nav_articles: "Articles"
   nav_cta: "Get the app"
   language: "Language"
+  close: "Close"
   footer_label: "Footer"
   footer_about: "About the app"
   footer_privacy: "Privacy policy"

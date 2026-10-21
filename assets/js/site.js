@@ -1,21 +1,29 @@
-// Language switcher: close the dropdown on outside click or Escape.
+// Language switcher: full-page modal (native <dialog>). Escape and the backdrop click close it.
 (function () {
-  function closeAll(except) {
-    var open = document.querySelectorAll("details.lang-switch[open]");
-    for (var i = 0; i < open.length; i++) {
-      if (open[i] !== except) open[i].removeAttribute("open");
-    }
+  var root = document.querySelector(".lang-switch");
+  if (!root) return;
+  var dialog = root.querySelector("dialog");
+  var toggle = root.querySelector(".lang-toggle");
+  if (!dialog || typeof dialog.showModal !== "function") return;
+
+  function open() {
+    dialog.showModal();
+    document.documentElement.classList.add("lang-open");
+    var current = dialog.querySelector('[aria-current="true"]');
+    if (current) current.focus();
   }
-  document.addEventListener("click", function (e) {
-    var inside = e.target.closest ? e.target.closest("details.lang-switch") : null;
-    closeAll(inside);
+  function close() {
+    if (dialog.open) dialog.close();
+  }
+
+  toggle.addEventListener("click", open);
+  dialog.querySelector(".lang-close").addEventListener("click", close);
+  dialog.addEventListener("click", function (e) {
+    // The dialog fills the viewport; a click on its own box (not the panel) is a backdrop click.
+    if (e.target === dialog) close();
   });
-  document.addEventListener("keydown", function (e) {
-    if (e.key !== "Escape") return;
-    var open = document.querySelector("details.lang-switch[open]");
-    if (!open) return;
-    open.removeAttribute("open");
-    var summary = open.querySelector("summary");
-    if (summary) summary.focus();
+  dialog.addEventListener("close", function () {
+    document.documentElement.classList.remove("lang-open");
+    toggle.focus();
   });
 })();

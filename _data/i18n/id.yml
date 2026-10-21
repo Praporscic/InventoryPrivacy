@@ -9,6 +9,7 @@ ui:
   nav_articles: "Artikel"
   nav_cta: "Dapatkan aplikasi"
   language: "Bahasa"
+  close: "Tutup"
   footer_label: "Kaki halaman"
   footer_about: "Tentang aplikasi"
   footer_privacy: "Kebijakan privasi"

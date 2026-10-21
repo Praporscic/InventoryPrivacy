@@ -9,6 +9,7 @@ ui:
   nav_articles: "Artigos"
   nav_cta: "Obter o app"
   language: "Idioma"
+  close: "Fechar"
   footer_label: "Rodapé"
   footer_about: "Sobre o app"
   footer_privacy: "Política de privacidade"

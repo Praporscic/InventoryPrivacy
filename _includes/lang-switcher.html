@@ -1,14 +1,29 @@
 {%- include i18n.html -%}
-<details class="lang-switch">
-  <summary aria-label="{{ t.ui.language | escape }}" title="{{ t.ui.language | escape }}">
-    <svg class="lang-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></g></svg>
+<div class="lang-switch">
+  <button type="button" class="lang-toggle" aria-haspopup="dialog" aria-label="{{ t.ui.language | escape }}" title="{{ t.ui.language | escape }}">
+    <img class="lang-flag" src="{{ '/assets/img/flags/' | append: L.flag | append: '.svg' | relative_url }}" alt="" width="20" height="15">
     <span class="lang-current">{{ lang | upcase }}</span>
     <svg class="lang-caret" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg>
-  </summary>
-  <ul class="lang-menu" aria-label="{{ t.ui.language | escape }}">
-    {%- for l in site.data.languages %}
-    {%- include lang-url.html l=l %}
-    <li><a href="{{ alt_target | relative_url }}" lang="{{ l.html_lang }}" hreflang="{{ l.html_lang }}"{% if l.code == lang %} aria-current="true"{% endif %}>{{ l.name }}</a></li>
-    {%- endfor %}
-  </ul>
-</details>
+  </button>
+  <dialog class="lang-dialog" aria-labelledby="lang-dialog-title">
+    <div class="lang-panel">
+      <div class="lang-head">
+        <svg class="lang-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></g></svg>
+        <h2 id="lang-dialog-title">{{ t.ui.language | escape }}</h2>
+        <button type="button" class="lang-close" aria-label="{{ t.ui.close | escape }}" title="{{ t.ui.close | escape }}">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <ul class="lang-grid">
+        {%- for l in site.data.languages %}
+        {%- include lang-url.html l=l %}
+        <li><a class="lang-option" href="{{ alt_target | relative_url }}" lang="{{ l.html_lang }}" hreflang="{{ l.html_lang }}"{% if l.code == lang %} aria-current="true"{% endif %}>
+          <img class="lang-flag" src="{{ '/assets/img/flags/' | append: l.flag | append: '.svg' | relative_url }}" alt="" width="32" height="24" loading="lazy">
+          <span class="lang-name">{{ l.name }}</span>
+          <svg class="lang-check" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></svg>
+        </a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </dialog>
+</div>

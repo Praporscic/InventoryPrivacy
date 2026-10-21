@@ -9,6 +9,7 @@ ui:
   nav_articles: "Makaleler"
   nav_cta: "Uygulamayı edin"
   language: "Dil"
+  close: "Kapat"
   footer_label: "Alt bilgi"
   footer_about: "Uygulama hakkında"
   footer_privacy: "Gizlilik politikası"

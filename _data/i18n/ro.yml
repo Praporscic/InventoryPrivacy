@@ -9,6 +9,7 @@ ui:
   nav_articles: "Articole"
   nav_cta: "Descarcă aplicația"
   language: "Limbă"
+  close: "Închide"
   footer_label: "Subsol"
   footer_about: "Despre aplicație"
   footer_privacy: "Politica de confidențialitate"

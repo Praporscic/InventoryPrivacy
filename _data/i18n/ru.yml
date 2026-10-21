@@ -9,6 +9,7 @@ ui:
   nav_articles: "Статьи"
   nav_cta: "Скачать"
   language: "Язык"
+  close: "Закрыть"
   footer_label: "Нижнее меню"
   footer_about: "О приложении"
   footer_privacy: "Политика конфиденциальности"

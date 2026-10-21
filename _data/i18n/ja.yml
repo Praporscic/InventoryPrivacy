@@ -9,6 +9,7 @@ ui:
   nav_articles: "記事"
   nav_cta: "アプリを入手"
   language: "言語"
+  close: "閉じる"
   footer_label: "フッター"
   footer_about: "アプリについて"
   footer_privacy: "プライバシーポリシー"

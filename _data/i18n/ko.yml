@@ -9,6 +9,7 @@ ui:
   nav_articles: "글"
   nav_cta: "앱 받기"
   language: "언어"
+  close: "닫기"
   footer_label: "푸터"
   footer_about: "앱 소개"
   footer_privacy: "개인정보 처리방침"

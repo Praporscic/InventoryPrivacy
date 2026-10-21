@@ -1,90 +1,105 @@
 # Site languages. `code` is the data key (_data/i18n/<code>.yml) and the URL prefix;
 # English is served from the site root, every other language from /<code>/.
 - code: en
+  flag: gb
   name: English
   html_lang: en
   og_locale: en_US
   dir: ltr
   prefix: ""
 - code: zh
+  flag: cn
   name: 简体中文
   html_lang: zh-CN
   og_locale: zh_CN
   dir: ltr
   prefix: /zh
 - code: ja
+  flag: jp
   name: 日本語
   html_lang: ja
   og_locale: ja_JP
   dir: ltr
   prefix: /ja
 - code: es
+  flag: es
   name: Español
   html_lang: es
   og_locale: es_ES
   dir: ltr
   prefix: /es
 - code: fr
+  flag: fr
   name: Français
   html_lang: fr
   og_locale: fr_FR
   dir: ltr
   prefix: /fr
 - code: de
+  flag: de
   name: Deutsch
   html_lang: de
   og_locale: de_DE
   dir: ltr
   prefix: /de
 - code: ko
+  flag: kr
   name: 한국어
   html_lang: ko
   og_locale: ko_KR
   dir: ltr
   prefix: /ko
 - code: pt
+  flag: br
   name: Português (Brasil)
   html_lang: pt-BR
   og_locale: pt_BR
   dir: ltr
   prefix: /pt
 - code: it
+  flag: it
   name: Italiano
   html_lang: it
   og_locale: it_IT
   dir: ltr
   prefix: /it
 - code: ru
+  flag: ru
   name: Русский
   html_lang: ru
   og_locale: ru_RU
   dir: ltr
   prefix: /ru
 - code: ro
+  flag: ro
   name: Română
   html_lang: ro
   og_locale: ro_RO
   dir: ltr
   prefix: /ro
 - code: ar
+  flag: sa
   name: العربية
   html_lang: ar
   og_locale: ar_AR
   dir: rtl
   prefix: /ar
 - code: tr
+  flag: tr
   name: Türkçe
   html_lang: tr
   og_locale: tr_TR
   dir: ltr
   prefix: /tr
 - code: nl
+  flag: nl
   name: Nederlands
   html_lang: nl
   og_locale: nl_NL
   dir: ltr
   prefix: /nl
 - code: id
+  flag: id
   name: Bahasa Indonesia
   html_lang: id
   og_locale: id_ID

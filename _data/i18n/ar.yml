@@ -9,6 +9,7 @@ ui:
   nav_articles: "المقالات"
   nav_cta: "احصل على التطبيق"
   language: "اللغة"
+  close: "إغلاق"
   footer_label: "تذييل الصفحة"
   footer_about: "حول التطبيق"
   footer_privacy: "سياسة الخصوصية"

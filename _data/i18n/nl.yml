@@ -9,6 +9,7 @@ ui:
   nav_articles: "Artikelen"
   nav_cta: "Download de app"
   language: "Taal"
+  close: "Sluiten"
   footer_label: "Voettekst"
   footer_about: "Over de app"
   footer_privacy: "Privacybeleid"

@@ -9,6 +9,7 @@ ui:
   nav_articles: "Artículos"
   nav_cta: "Obtener la app"
   language: "Idioma"
+  close: "Cerrar"
   footer_label: "Pie de página"
   footer_about: "Acerca de la app"
   footer_privacy: "Política de privacidad"
