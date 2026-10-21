@@ -1,15 +1,15 @@
 ---
-title: "Inventory – Stock Manager: a simple offline stock tracker for iPhone and iPad"
-description: "An overview of Inventory – Stock Manager, a free offline inventory app for iPhone and iPad: what it does, who it is for, how to track stock by size, record sales and keep your data private."
+title: "Inventory & Stock Manager: a simple offline stock tracker for iPhone and iPad"
+description: "An overview of Inventory & Stock Manager, a free offline inventory app for iPhone and iPad: what it does, who it is for, how to track stock by size, record sales and keep your data private."
 date: 2026-10-21 00:00:00 +0000
 reading_time: 5
 faq:
-  - q: "Is Inventory – Stock Manager free?"
-    a: "Yes. The app is free to download and use and is supported by ads. An optional Inventory Pro upgrade removes ads and unlocks the sales history."
+  - q: "Is Inventory & Stock Manager free?"
+    a: "Yes. The app is free to download and use, with no ads. An optional Inventory Pro upgrade unlocks the sales history."
   - q: "Does the app need an internet connection or an account?"
     a: "No. It works fully offline and there is no account or sign-in. Your products, stock quantities, photos and sales are stored only on your device."
   - q: "Does it work on iPad?"
-    a: "Yes. Inventory – Stock Manager runs on both iPhone and iPad."
+    a: "Yes. Inventory & Stock Manager runs on both iPhone and iPad."
   - q: "Can I track products that come in different sizes?"
     a: "Yes. Each product can have any number of sizes, and every size has its own stock quantity."
   - q: "Which languages does the app support?"
@@ -17,13 +17,13 @@ faq:
   - q: "What happens to my data if I delete the app?"
     a: "Because everything is stored locally on your device and nothing is uploaded, deleting the app permanently deletes its data. There is no cloud copy."
 ---
-Keeping track of stock does not have to mean spreadsheets, barcode hardware or a monthly software bill. **Inventory – Stock Manager** is an inventory app for iPhone and iPad that does the basics well: it shows what you have, lets you record what you sell and tells you what is running low. It works fully offline and needs no account.
+Keeping track of stock does not have to mean spreadsheets, barcode hardware or a monthly software bill. **Inventory & Stock Manager** is an inventory app for iPhone and iPad that does the basics well: it shows what you have, lets you record what you sell and tells you what is running low. It works fully offline and needs no account.
 
 This article explains what the app does, who it suits and how a typical workflow looks.
 
-[Download Inventory – Stock Manager on the App Store]({{ site.app_store_url }})
+[Download Inventory & Stock Manager on the App Store]({{ site.app_store_url }})
 
-## What is Inventory – Stock Manager?
+## What is Inventory & Stock Manager?
 
 It is a stock and inventory management app built around a simple idea: every product has a name, an optional photo and one or more **sizes**, and each size has its own stock quantity. You add your products once, then update quantities as you sell or restock.
 
@@ -79,14 +79,14 @@ You can switch the app language at any time from the settings. It supports Engli
 
 ## Privacy: your data stays on your device
 
-Inventory – Stock Manager has no user accounts and no server of its own. Product names, quantities, photos and sales are saved locally on your device and are never uploaded. The app contains no analytics or crash-reporting SDK. The only third-party services are Apple's purchase system, RevenueCat for subscription status and Google AdMob for ads in the free version. You can read the details in the [privacy policy]({{ '/' | relative_url }}).
+Inventory & Stock Manager has no user accounts and no server of its own. Product names, quantities, photos and sales are saved locally on your device and are never uploaded. The app contains no analytics or crash-reporting SDK. The only third-party services are Apple's purchase system and RevenueCat for subscription status. The app contains no ads. You can read the details in the [privacy policy]({{ '/' | relative_url }}).
 
 ## Free and Pro
 
-The app is free to download and use. The free version shows ads. **Inventory Pro** is an optional subscription that removes ads and unlocks the sales history. You can manage or cancel it at any time in your Apple ID settings or from within the app.
+The app is free to download and use, with no ads. **Inventory Pro** is an optional subscription that unlocks the sales history. You can manage or cancel it at any time in your Apple ID settings or from within the app.
 
 ## Is it right for you?
 
-If you need a lightweight, private way to track stock by size on your phone, with no accounts and no setup, Inventory – Stock Manager is built for exactly that. If you need multi-user access, cloud sync across devices or barcode scanning hardware, a larger inventory system may be a better fit.
+If you need a lightweight, private way to track stock by size on your phone, with no accounts and no setup, Inventory & Stock Manager is built for exactly that. If you need multi-user access, cloud sync across devices or barcode scanning hardware, a larger inventory system may be a better fit.
 
-Ready to try it? [Get Inventory – Stock Manager on the App Store]({{ site.app_store_url }}), or take a look at the [feature overview and screenshots]({{ '/about/' | relative_url }}).
+Ready to try it? [Get Inventory & Stock Manager on the App Store]({{ site.app_store_url }}), or take a look at the [feature overview and screenshots]({{ '/about/' | relative_url }}).

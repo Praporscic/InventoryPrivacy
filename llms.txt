@@ -3,9 +3,9 @@ layout: null
 permalink: /llms.txt
 sitemap: false
 ---
-# Inventory – Stock Manager
+# Inventory & Stock Manager
 
-> Inventory – Stock Manager is a free, offline inventory and stock management app for iPhone and iPad. It lets you track products with photos, price and SKU, keep stock quantities per size, organise products with custom categories, record sales and review sales history. No account is needed and all data stays on the device. Available in 15 languages.
+> Inventory & Stock Manager is a free, offline inventory and stock management app for iPhone and iPad. It lets you track products with photos, price and SKU, keep stock quantities per size, organise products with custom categories, record sales and review sales history. No account is needed and all data stays on the device. Available in 15 languages.
 
 - App Store: {{ site.app_store_url }}
 

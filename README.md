@@ -1,6 +1,6 @@
-# Inventory – Stock Manager website
+# Inventory & Stock Manager website
 
-GitHub Pages (Jekyll) site for the Inventory – Stock Manager iOS app, served at
+GitHub Pages (Jekyll) site for the Inventory & Stock Manager iOS app, served at
 https://praporscic.github.io/InventoryPrivacy/.
 
 - `/` — privacy policy (this URL is registered in App Store Connect, so keep it serving the policy)

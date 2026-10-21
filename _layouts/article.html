@@ -7,7 +7,7 @@ layout: default
     <a href="{{ '/articles/' | relative_url }}">Articles</a>
   </nav>
   <header class="article-header">
-    <h1 itemprop="headline">{{ page.title }}</h1>
+    <h1 itemprop="headline">{{ page.title | escape }}</h1>
     <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
     {%- if page.reading_time %}
     <p class="meta">{{ page.reading_time }} min read</p>
@@ -31,9 +31,9 @@ layout: default
   {%- endif %}
 
   <aside class="cta-card" aria-label="Download the app">
-    <img src="{{ '/assets/img/icon-192.webp' | relative_url }}" alt="Inventory – Stock Manager app icon" width="72" height="72" loading="lazy">
+    <img src="{{ '/assets/img/icon-192.webp' | relative_url }}" alt="Inventory &amp; Stock Manager app icon" width="72" height="72" loading="lazy">
     <div>
-      <h2>Try Inventory – Stock Manager</h2>
+      <h2>Try Inventory &amp; Stock Manager</h2>
       <p>Free, offline stock tracking for iPhone and iPad. No account needed.</p>
       {% include download-button.html %}
     </div>
@@ -45,7 +45,7 @@ layout: default
     <h2 id="related-h">More articles</h2>
     <ul>
       {%- for a in others limit: 3 %}
-      <li><a href="{{ a.url | relative_url }}">{{ a.title }}</a></li>
+      <li><a href="{{ a.url | relative_url }}">{{ a.title | escape }}</a></li>
       {%- endfor %}
     </ul>
   </section>
