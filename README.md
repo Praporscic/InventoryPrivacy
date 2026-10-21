@@ -15,7 +15,7 @@ Create `_articles/<slug>.md` with this front matter (the slug becomes the URL `/
 ---
 title: "Article title"
 description: "One or two sentences (about 150 characters) used in search results and social cards."
-date: 2026-11-01 09:00:00 +0000
+date: YYYY-MM-DD 09:00:00 +0000   # required for sorting; not shown on the page
 reading_time: 4
 faq:            # optional, adds a visible FAQ and FAQPage structured data
   - q: "Question?"

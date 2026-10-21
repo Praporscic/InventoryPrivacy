@@ -13,7 +13,6 @@ description: "Guides and news about Inventory – Stock Manager, a free offline 
     {%- for article in sorted %}
     <li class="article-card">
       <h2><a href="{{ article.url | relative_url }}">{{ article.title }}</a></h2>
-      <p class="meta"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %-d, %Y" }}</time></p>
       <p>{{ article.description }}</p>
     </li>
     {%- endfor %}
