@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<article class="wrap article" itemscope itemtype="https://schema.org/Article">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/about/' | relative_url }}">About</a> <span aria-hidden="true">/</span>
+    <a href="{{ '/articles/' | relative_url }}">Articles</a>
+  </nav>
+  <header class="article-header">
+    <h1 itemprop="headline">{{ page.title }}</h1>
+    <p class="meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {%- if page.reading_time %} · {{ page.reading_time }} min read{% endif %}
+    </p>
+  </header>
+
+  <div class="prose" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if page.faq %}
+  <section class="faq" aria-labelledby="faq-h">
+    <h2 id="faq-h">Frequently asked questions</h2>
+    {%- for item in page.faq %}
+    <details>
+      <summary>{{ item.q }}</summary>
+      <p>{{ item.a }}</p>
+    </details>
+    {%- endfor %}
+  </section>
+  {%- endif %}
+
+  <aside class="cta-card" aria-label="Download the app">
+    <img src="{{ '/assets/img/icon-192.webp' | relative_url }}" alt="Inventory – Stock Manager app icon" width="72" height="72" loading="lazy">
+    <div>
+      <h2>Try Inventory – Stock Manager</h2>
+      <p>Free, offline stock tracking for iPhone and iPad. No account needed.</p>
+      {% include download-button.html %}
+    </div>
+  </aside>
+
+  {%- assign others = site.articles | where_exp: "a", "a.url != page.url" | sort: "date" | reverse -%}
+  {%- if others.size > 0 %}
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">More articles</h2>
+    <ul>
+      {%- for a in others limit: 3 %}
+      <li><a href="{{ a.url | relative_url }}">{{ a.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+</article>

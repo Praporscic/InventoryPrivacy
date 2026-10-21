@@ -1,0 +1,21 @@
+---
+layout: default
+title: Articles
+seo_title: "Articles about inventory and stock management | Inventory – Stock Manager"
+description: "Guides and news about Inventory – Stock Manager, a free offline inventory app for iPhone and iPad, plus practical tips for tracking stock."
+---
+<div class="wrap narrow">
+  <h1>Articles</h1>
+  <p class="sub">Guides and practical tips on inventory and stock management, and news about Inventory – Stock Manager.</p>
+
+  <ul class="article-list">
+    {%- assign sorted = site.articles | sort: "date" | reverse -%}
+    {%- for article in sorted %}
+    <li class="article-card">
+      <h2><a href="{{ article.url | relative_url }}">{{ article.title }}</a></h2>
+      <p class="meta"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %-d, %Y" }}</time></p>
+      <p>{{ article.description }}</p>
+    </li>
+    {%- endfor %}
+  </ul>
+</div>

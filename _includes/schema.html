@@ -1,0 +1,79 @@
+{%- assign canonical = page.url | replace: 'index.html', '' | absolute_url -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ '/' | absolute_url }}#website",
+      "url": "{{ '/' | absolute_url }}",
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "en"
+    }
+    {%- if page.schema == 'app' %},
+    {
+      "@type": "SoftwareApplication",
+      "@id": "{{ '/about/' | absolute_url }}#app",
+      "name": {{ site.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "iOS, iPadOS",
+      "url": "{{ '/about/' | absolute_url }}",
+      "downloadUrl": "{{ site.app_store_url }}",
+      "installUrl": "{{ site.app_store_url }}",
+      "image": "{{ '/assets/img/icon-512.webp' | absolute_url }}",
+      "screenshot": [
+        "{{ '/assets/img/screen-1.webp' | absolute_url }}",
+        "{{ '/assets/img/screen-2.webp' | absolute_url }}",
+        "{{ '/assets/img/screen-4.webp' | absolute_url }}",
+        "{{ '/assets/img/screen-5.webp' | absolute_url }}"
+      ],
+      "inLanguage": ["en", "zh", "ja", "es", "fr", "de", "ko", "pt-BR", "it", "ru", "ro", "ar", "tr", "nl", "id"],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    {%- endif %}
+    {%- if page.layout == 'article' %},
+    {
+      "@type": "Article",
+      "@id": "{{ canonical }}#article",
+      "mainEntityOfPage": "{{ canonical }}",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "image": "{{ page.image | default: '/assets/img/og-image.jpg' | absolute_url }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+      "inLanguage": "en",
+      "author": { "@type": "Person", "name": "Iurie Praporscic" },
+      "publisher": { "@type": "Person", "name": "Iurie Praporscic" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "About", "item": "{{ '/about/' | absolute_url }}" },
+        { "@type": "ListItem", "position": 2, "name": "Articles", "item": "{{ '/articles/' | absolute_url }}" },
+        { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": "{{ canonical }}" }
+      ]
+    }
+    {%- endif %}
+    {%- if page.faq %},
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {%- for item in page.faq %}
+        {
+          "@type": "Question",
+          "name": {{ item.q | jsonify }},
+          "acceptedAnswer": { "@type": "Answer", "text": {{ item.a | jsonify }} }
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    }
+    {%- endif %}
+  ]
+}
+</script>
