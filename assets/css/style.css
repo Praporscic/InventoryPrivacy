@@ -97,7 +97,9 @@ a:hover { text-decoration-thickness: 2px; }
   .btn-primary { background: #fff; color: #111; border-color: #fff; }
   .btn-primary:hover { background: #ececf8; }
 }
-.btn-lg { padding: .7rem 1.5rem; min-width: 190px; }
+.btn-lg { padding: .7rem 1.5rem; min-width: 190px; flex-direction: row; align-items: center; gap: .7rem; }
+.btn-text { display: flex; flex-direction: column; text-align: left; }
+.btn-icon { flex: none; }
 .btn-small { font-size: .72rem; font-weight: 500; letter-spacing: .02em; }
 .btn-big { font-size: 1.4rem; letter-spacing: -.01em; }
 .btn-secondary {
@@ -234,6 +236,7 @@ a:hover { text-decoration-thickness: 2px; }
 .app-banner span { color: var(--muted); font-size: .95rem; }
 .app-banner .btn-lg { min-width: 0; padding: .55rem 1.1rem; }
 .app-banner .btn-big { font-size: 1.1rem; }
+.app-banner .btn-icon { width: 20px; height: 24px; }
 
 /* ---------- Footer ---------- */
 .site-footer { border-top: 1px solid var(--border); padding: 2rem 0 3rem; color: var(--muted); font-size: .92rem; background: var(--bg-soft); }
