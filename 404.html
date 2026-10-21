@@ -1,16 +1,44 @@
 ---
 layout: default
-title: Page not found
-description: The page you were looking for could not be found.
+page_key: notfound
 permalink: /404.html
 sitemap: false
 ---
-<div class="narrow prose">
-  <h1>Page not found</h1>
-  <p>Sorry, we could not find that page. Try one of these instead:</p>
+{%- comment -%}
+  A 404 page is served for any missing URL, so all languages are rendered here and a tiny script
+  shows the one matching the URL prefix (/de/...) or the browser language. English is the no-JS default.
+{%- endcomment -%}
+{%- for l in site.data.languages %}
+{%- assign nt = site.data.i18n[l.code].notfound %}
+<div class="narrow prose nf" data-lang="{{ l.code }}" lang="{{ l.html_lang }}" dir="{{ l.dir }}"{% unless l.code == 'en' %} hidden{% endunless %}>
+  <h1>{{ nt.h1 | escape }}</h1>
+  <p>{{ nt.p | escape }}</p>
   <ul>
-    <li><a href="{{ '/about/' | relative_url }}">About Inventory &amp; Stock Manager</a></li>
-    <li><a href="{{ '/articles/' | relative_url }}">Articles</a></li>
-    <li><a href="{{ '/' | relative_url }}">Privacy policy</a></li>
+    <li><a href="{{ l.prefix | append: '/about/' | relative_url }}">{{ nt.about_link | escape }}</a></li>
+    <li><a href="{{ l.prefix | append: '/articles/' | relative_url }}">{{ nt.articles_link | escape }}</a></li>
+    <li><a href="{{ l.prefix | append: '/' | relative_url }}">{{ nt.privacy_link | escape }}</a></li>
   </ul>
 </div>
+{%- endfor %}
+<script>
+(function () {
+  var codes = {{ site.data.languages | map: "code" | jsonify }};
+  var base = {{ site.baseurl | jsonify }};
+  var path = location.pathname;
+  if (base && path.indexOf(base) === 0) path = path.slice(base.length);
+  var pick = path.split("/")[1];
+  if (codes.indexOf(pick) < 0) {
+    pick = ((navigator.language || "en").split("-")[0] || "en").toLowerCase();
+    if (codes.indexOf(pick) < 0) pick = "en";
+  }
+  var blocks = document.querySelectorAll(".nf");
+  for (var i = 0; i < blocks.length; i++) {
+    var on = blocks[i].getAttribute("data-lang") === pick;
+    blocks[i].hidden = !on;
+    if (on) {
+      document.documentElement.lang = blocks[i].lang;
+      document.documentElement.dir = blocks[i].dir;
+    }
+  }
+})();
+</script>

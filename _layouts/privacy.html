@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{%- include i18n.html -%}
+{%- assign p = t.privacy -%}
+<section class="hero page-hero">
+  <div class="wrap">
+    <h1>{{ p.h1 | escape }}</h1>
+    <p class="lead">Inventory &amp; Stock Manager</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="policy prose">
+{{ p.intro }}
+{%- for s in p.sections %}
+
+<h2>{{ s.h | escape }}</h2>
+{{ s.body }}
+{%- endfor %}
+    </div>
+  </div>
+</section>

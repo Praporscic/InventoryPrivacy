@@ -1,0 +1,77 @@
+---
+layout: default
+---
+{%- include i18n.html -%}
+{%- assign a = t.about -%}
+{%- assign overview_url = prefix | append: '/articles/inventory-stock-manager-app/' | relative_url -%}
+{%- assign privacy_url = prefix | append: '/' | relative_url -%}
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div>
+      <h1>{{ a.hero_h1 | escape }}</h1>
+      <p class="lead">{{ a.hero_lead | escape }}</p>
+      <div class="hero-actions">
+        {% include download-button.html %}
+        <a class="btn btn-secondary" href="{{ overview_url }}">{{ a.read_overview | escape }}</a>
+      </div>
+      <p class="hero-note">{{ a.hero_note | escape }}</p>
+    </div>
+    <div class="hero-art">
+      <img src="{{ '/assets/img/screen-1.webp' | relative_url }}" width="640" height="1385"
+           alt="{{ a.hero_img_alt | escape }}">
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features">
+  <div class="wrap">
+    <h2>{{ a.features_h2 | escape }}</h2>
+    <p class="sub">{{ a.features_sub | escape }}</p>
+    <ul class="features">
+      {%- for f in a.features %}
+      <li class="feature"><span class="ico" aria-hidden="true">{{ f.ico }}</span><h3>{{ f.h | escape }}</h3><p>{{ f.p | escape }}</p></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section alt" id="screenshots">
+  <div class="wrap">
+    <h2>{{ a.shots_h2 | escape }}</h2>
+    <p class="sub">{{ a.shots_sub | escape }}</p>
+    <div class="shots" role="list">
+      {%- assign shot_files = "screen-1,screen-2,screen-4,screen-5,screen-3" | split: "," -%}
+      {%- for s in a.shots %}
+      <figure role="listitem"><img src="{{ '/assets/img/' | append: shot_files[forloop.index0] | append: '.webp' | relative_url }}" width="640" height="1385" loading="lazy" alt="{{ s.alt | escape }}"><figcaption>{{ s.cap | escape }}</figcaption></figure>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="how-it-works">
+  <div class="wrap">
+    <h2>{{ a.how_h2 | escape }}</h2>
+    <p class="sub">{{ a.how_sub | escape }}</p>
+    <ol class="steps">
+      {%- for s in a.steps %}
+      <li><h3>{{ s.h | escape }}</h3><p>{{ s.p | escape }}</p></li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section alt" id="free-and-pro">
+  <div class="wrap">
+    <h2>{{ a.free_h2 | escape }}</h2>
+    <p class="sub">{{ a.free_sub }}</p>
+    <p>{{ a.free_links | replace: '{privacy_url}', privacy_url | replace: '{overview_url}', overview_url }}</p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>{{ a.cta_h2 | escape }}</h2>
+    <p class="sub" style="margin-left:auto;margin-right:auto">{{ a.cta_sub | escape }}</p>
+    {% include download-button.html %}
+  </div>
+</section>

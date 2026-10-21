@@ -1,0 +1,203 @@
+site:
+  description: "Inventory & Stock Manager is een gratis offline voorraad-app voor iPhone en iPad. Beheer producten, maten en voorraadniveaus, registreer verkopen en bekijk je verkoopgeschiedenis. Geen account nodig."
+
+ui:
+  skip: "Naar de inhoud"
+  nav_label: "Hoofdmenu"
+  nav_privacy: "Privacy"
+  nav_about: "Over"
+  nav_articles: "Artikelen"
+  nav_cta: "Download de app"
+  language: "Taal"
+  footer_label: "Voettekst"
+  footer_about: "Over de app"
+  footer_privacy: "Privacybeleid"
+  footer_trademark: "Apple, iPhone, iPad en App Store zijn handelsmerken van Apple Inc."
+  download_aria: "Download Inventory & Stock Manager in de App Store"
+  download_small: "Download in de"
+  breadcrumb: "Kruimelpad"
+  min_read: "{n} min leestijd"
+  faq: "Veelgestelde vragen"
+  cta_label: "Download de app"
+  icon_alt: "App-icoon van Inventory & Stock Manager"
+  cta_title: "Probeer Inventory & Stock Manager"
+  cta_text: "Gratis voorraadbeheer offline voor iPhone en iPad. Geen account nodig."
+  more_articles: "Meer artikelen"
+
+pages:
+  privacy:
+    title: "Privacybeleid"
+    description: "Privacybeleid van Inventory & Stock Manager. De app werkt volledig offline, heeft geen account en bewaart je voorraad alleen op je apparaat."
+  about:
+    title: "Over de app"
+    seo_title: "Inventory & Stock Manager: offline voorraad-app voor iPhone"
+    description: "Inventory & Stock Manager is een gratis offline voorraad-app voor iPhone en iPad. Beheer producten, maten en voorraad, registreer verkopen en bekijk je verkoopgeschiedenis. Geen account nodig."
+  articles:
+    title: "Artikelen"
+    seo_title: "Artikelen over voorraad- en stockbeheer | Inventory & Stock Manager"
+    description: "Handleidingen en nieuws over Inventory & Stock Manager, een gratis offline voorraad-app voor iPhone en iPad, plus praktische tips om je voorraad bij te houden."
+  notfound:
+    title: "Pagina niet gevonden"
+    description: "De pagina die je zocht kon niet worden gevonden."
+
+privacy:
+  h1: "Privacybeleid"
+  intro: |-
+    <p>
+      Inventory &amp; Stock Manager (“de app”) is een offline voorraad- en inventarisatie-app: je voegt producten,
+      maten en voorraadaantallen toe, en alles wat je invoert blijft op je eigen apparaat. Er is geen
+      account, geen inlog en geen server die door ons wordt beheerd — de app heeft nergens om je gegevens naartoe
+      te sturen, ook als hij dat zou willen. Deze pagina legt uit welke gegevens er wel en niet worden verzameld wanneer je de app gebruikt.
+    </p>
+  sections:
+    - h: "Informatie die we verzamelen"
+      body: |-
+        <p>
+          De app zelf verzamelt, verzendt of bewaart geen persoonlijke gegevens op een server —
+          hij heeft geen backend en geen gebruikersaccounts. We vragen niet om je naam, e-mailadres, telefoonnummer,
+          locatie, contacten of gezondheidsgegevens, en de app bevat geen enkele analyse- of crashrapportage-SDK.
+        </p>
+    - h: "Informatie die alleen op je apparaat wordt bewaard"
+      body: |-
+        <p>
+          Alles wat je invoert — productnamen, maten, voorraadaantallen, verkoopregistraties, productfoto’s en
+          de door jou gekozen app-taal — wordt lokaal op je apparaat opgeslagen via de standaardopslag van het apparaat
+          (een lokale database en lokale bestandsopslag). Niets daarvan wordt geüpload, gesynchroniseerd of ergens naartoe gestuurd.
+          Als je een product verwijdert of de app verwijdert, zijn die gegevens weg, omdat ze nergens anders
+          bestonden.
+        </p>
+    - h: "Toegang tot camera en fotobibliotheek"
+      body: |-
+        <p>
+          Als je ervoor kiest een foto aan een product toe te voegen, vraagt de app toegang tot de camera of de fotobibliotheek
+          zodat je die foto kunt kiezen of nemen. De foto wordt verkleind en opgeslagen in de privé lokale opslag van de app,
+          alleen op je apparaat — hij wordt nooit naar ons of naar derden geüpload.
+        </p>
+    - h: "Abonnementen en aankopen"
+      body: |-
+        <p>
+          De app biedt een optionele Pro-upgrade. Aankopen worden verwerkt door de App Store van Apple of Google
+          Play, en de abonnementsstatus wordt voor ons beheerd door <strong>RevenueCat</strong>, een abonnementsplatform
+          van een derde partij. RevenueCat ontvangt een willekeurig gegenereerde app-gebruikers-ID en de
+          aankoop- en transactiegegevens die nodig zijn om je recht op toegang te valideren — we delen je naam, e-mailadres
+          of betaalgegevens niet met hen, omdat wij die informatie zelf nooit verzamelen. Zie het privacybeleid
+          van RevenueCat zelf voor details over hoe zij met gegevens omgaan:
+        </p>
+        <ul>
+          <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Privacybeleid van RevenueCat</a></li>
+        </ul>
+    - h: "Advertenties"
+      body: |-
+        <p>
+          De app bevat geen advertenties en geen advertentie-SDK’s, en volgt je niet via andere
+          apps of websites.
+        </p>
+    - h: "Privacy van kinderen"
+      body: |-
+        <p>
+          Deze app is bedoeld voor een algemeen publiek en is niet specifiek gericht op kinderen onder de
+          13 jaar. We verzamelen niet bewust persoonlijke gegevens van kinderen. Als je denkt dat een kind
+          via deze app persoonlijke gegevens heeft verstrekt, neem dan contact met ons op zodat we dit kunnen oplossen.
+        </p>
+    - h: "Gegevensbeveiliging"
+      body: |-
+        <p>
+          Omdat de app geen backend heeft en zelf geen persoonlijke gegevens verzendt, is er geen
+          door de app beheerde externe opslag van je gegevens die beveiligd hoeft te worden. Gegevens die lokaal op je apparaat staan,
+          worden beschermd door de beveiliging van het besturingssysteem van je apparaat. Gegevensverwerking in verband met
+          abonnementen wordt uitgevoerd door Apple, Google of RevenueCat volgens hun eigen beveiligings- en privacypraktijken.
+        </p>
+    - h: "Je keuzes"
+      body: |-
+        <p>
+          Als je de app verwijdert, wordt alles wat hij op je apparaat heeft opgeslagen definitief gewist (producten, maten,
+          voorraad, verkoopgeschiedenis en foto’s), omdat niets daarvan ergens anders bestaat. Je kunt je abonnement op elk moment beheren of
+          opzeggen via de instellingen van je Apple ID of Google Play-account,
+          of via “Abonnement beheren” in de app.
+        </p>
+    - h: "Wijzigingen in dit beleid"
+      body: |-
+        <p>
+          Als dit beleid verandert — bijvoorbeeld als er een nieuwe functie of SDK wordt toegevoegd — wordt deze pagina
+          dienovereenkomstig bijgewerkt. We raden je aan deze pagina
+          regelmatig te bekijken.
+        </p>
+    - h: "Contact"
+      body: |-
+        <p>
+          Heb je vragen over dit privacybeleid, neem dan contact met ons op via:
+          <br />
+          <strong><a href="mailto:iosmyapps@yahoo.com">iosmyapps@yahoo.com</a></strong>
+        </p>
+
+about:
+  hero_h1: "Je hele voorraad. Onder controle."
+  hero_lead: "Inventory & Stock Manager is een eenvoudige offline voorraadtracker voor iPhone en iPad. Voeg producten toe, tel de voorraad per maat, registreer verkopen en zie wat er bijna op is — zonder account of internetverbinding."
+  read_overview: "Lees het volledige overzicht"
+  hero_note: "Gratis te downloaden. Werkt offline. Je gegevens blijven op je apparaat."
+  hero_img_alt: "Inventory & Stock Manager op een iPhone met een productlijst met maten en voorraadaantallen"
+  features_h2: "Alles wat je nodig hebt om je voorraad bij te houden"
+  features_sub: "Gemaakt voor kleine winkels, marktverkopers, online wederverkopers en iedereen die voorraad heeft en daar snel en helder zicht op wil."
+  features:
+    - ico: "📦"
+      h: "Producten met foto’s"
+      p: "Voeg bij elk product een naam, foto, prijs, SKU en beschrijving toe, zodat je artikelen in één oogopslag herkent."
+    - ico: "📏"
+      h: "Voorraad per maat"
+      p: "Geef elk product zoveel maten als nodig en stel het aantal per maat in met eenvoudige +/–-knoppen."
+    - ico: "🗂️"
+      h: "Je eigen categorieën"
+      p: "Maak lijsten zoals Kleur, Merk of Leverancier en koppel ze aan producten om een grote catalogus overzichtelijk te houden."
+    - ico: "🔎"
+      h: "Zoeken en voorraadfilters"
+      p: "Vind direct elk product en filter op Alles, Op voorraad, Bijna op of Uitverkocht om te zien wat aangevuld moet worden."
+    - ico: "🛒"
+      h: "Verkopen registreren in seconden"
+      p: "Kies een product, maat, aantal en datum. De voorraad wordt automatisch bijgewerkt zodra een verkoop is opgeslagen."
+    - ico: "📈"
+      h: "Verkoopgeschiedenis"
+      p: "Bekijk elke geregistreerde verkoop met product, maat, aantal en datum, en doorzoek eerdere verkopen."
+    - ico: "🌍"
+      h: "15 talen"
+      p: "Engels, Chinees, Japans, Spaans, Frans, Duits, Koreaans, Portugees (Brazilië), Italiaans, Russisch, Roemeens, Arabisch, Turks, Nederlands en Indonesisch."
+    - ico: "🔒"
+      h: "Privé en offline"
+      p: "Geen account, geen inlog en geen server. Alles wat je invoert wordt lokaal op je apparaat opgeslagen."
+  shots_h2: "Zie het in actie"
+  shots_sub: "Een overzichtelijke interface voor snel gebruik met één hand op de iPhone, die ook op de iPad schaalt."
+  shots:
+    - alt: "Voorraadlijst met productfoto’s, maten en voorraadniveaus"
+      cap: "Je hele voorraad"
+    - alt: "Scherm Product toevoegen met naam, prijs, SKU, beschrijving, categorieën en maten"
+      cap: "Producten toevoegen en ordenen"
+    - alt: "Scherm Verkoop registreren met productkiezer en datumkalender"
+      cap: "Een verkoop registreren"
+    - alt: "Lijst met verkoopgeschiedenis met producten, maten en datums"
+      cap: "Verkoopgeschiedenis"
+    - alt: "Instellingenscherm met taalkiezer"
+      cap: "Wissel direct van taal"
+  how_h2: "Hoe het werkt"
+  how_sub: "Van een lege app naar een bijgehouden catalogus in een paar minuten."
+  steps:
+    - h: "Voeg je producten toe"
+      p: "Maak of kies een foto, voer een naam, prijs en SKU in en voeg dan maten toe met hun beginaantallen."
+    - h: "Verkoop en registreer"
+      p: "Wanneer iets verkocht wordt, registreer je het met product, maat, aantal en datum. De voorraad daalt automatisch."
+    - h: "Controleer wat bijna op is"
+      p: "Filter op Bijna op of Uitverkocht en zie precies wat er opnieuw besteld moet worden."
+  free_h2: "Gratis om mee te beginnen, Pro als je meer wilt"
+  free_sub: "De app is gratis te downloaden en te gebruiken, zonder advertenties. <strong>Inventory Pro</strong> is een optionele upgrade die de verkoopgeschiedenis ontgrendelt. Abonnementen worden beheerd via je Apple ID en kunnen op elk moment worden opgezegd."
+  free_links: 'Lees hoe er met je gegevens wordt omgegaan in het <a href="{privacy_url}">privacybeleid</a>, of ontdek meer in het <a href="{overview_url}">volledige app-overzicht</a>.'
+  cta_h2: "Download Inventory & Stock Manager"
+  cta_sub: "Beschikbaar in de App Store voor iPhone en iPad."
+
+articles:
+  h1: "Artikelen"
+  sub: "Handleidingen en praktische tips over voorraad- en stockbeheer, en nieuws over Inventory & Stock Manager."
+
+notfound:
+  h1: "Pagina niet gevonden"
+  p: "Sorry, we konden die pagina niet vinden. Probeer een van deze in plaats daarvan:"
+  about_link: "Over Inventory & Stock Manager"
+  articles_link: "Artikelen"
+  privacy_link: "Privacybeleid"

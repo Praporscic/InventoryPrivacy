@@ -1,0 +1,26 @@
+{%- comment -%}
+  Shared per-page language context. Included by layouts/includes; assigns:
+  lang, L (language entry), t (translations), prefix (URL prefix, "" for English),
+  path / slug (page URL without the language prefix), and the page's title/description.
+{%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign L = site.data.languages | where: "code", lang | first -%}
+{%- assign prefix = L.prefix -%}
+{%- assign path = page.url | replace: 'index.html', '' -%}
+{%- if prefix != '' -%}
+  {%- assign slug = path | remove_first: prefix -%}
+{%- else -%}
+  {%- assign slug = path -%}
+{%- endif -%}
+{%- if page.layout == 'article' -%}
+  {%- assign p_title = page.title -%}
+  {%- assign p_seo = page.seo_title -%}
+  {%- assign p_desc = page.description -%}
+{%- else -%}
+  {%- assign meta = t.pages[page.page_key] -%}
+  {%- assign p_title = meta.title -%}
+  {%- assign p_seo = meta.seo_title -%}
+  {%- assign p_desc = meta.description -%}
+{%- endif -%}
+{%- assign p_desc = p_desc | default: t.site.description -%}

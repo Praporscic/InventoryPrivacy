@@ -1,3 +1,4 @@
+{%- include i18n.html -%}
 {%- assign canonical = page.url | replace: 'index.html', '' | absolute_url -%}
 <script type="application/ld+json">
 {
@@ -5,21 +6,21 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "{{ '/' | absolute_url }}#website",
-      "url": "{{ '/' | absolute_url }}",
+      "@id": "{{ prefix | append: '/' | absolute_url }}#website",
+      "url": "{{ prefix | append: '/' | absolute_url }}",
       "name": {{ site.title | jsonify }},
-      "description": {{ site.description | jsonify }},
-      "inLanguage": "en"
+      "description": {{ t.site.description | jsonify }},
+      "inLanguage": "{{ L.html_lang }}"
     }
     {%- if page.schema == 'app' %},
     {
       "@type": "SoftwareApplication",
-      "@id": "{{ '/about/' | absolute_url }}#app",
+      "@id": "{{ canonical }}#app",
       "name": {{ site.title | jsonify }},
-      "description": {{ page.description | jsonify }},
+      "description": {{ p_desc | jsonify }},
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "iOS, iPadOS",
-      "url": "{{ '/about/' | absolute_url }}",
+      "url": "{{ canonical }}",
       "downloadUrl": "{{ site.app_store_url }}",
       "installUrl": "{{ site.app_store_url }}",
       "image": "{{ '/assets/img/icon-512.webp' | absolute_url }}",
@@ -29,7 +30,7 @@
         "{{ '/assets/img/screen-4.webp' | absolute_url }}",
         "{{ '/assets/img/screen-5.webp' | absolute_url }}"
       ],
-      "inLanguage": ["en", "zh", "ja", "es", "fr", "de", "ko", "pt-BR", "it", "ru", "ro", "ar", "tr", "nl", "id"],
+      "inLanguage": {{ site.data.languages | map: "html_lang" | jsonify }},
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -47,15 +48,15 @@
       "image": "{{ page.image | default: '/assets/img/og-image.jpg' | absolute_url }}",
       "datePublished": "{{ page.date | date_to_xmlschema }}",
       "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-      "inLanguage": "en",
+      "inLanguage": "{{ L.html_lang }}",
       "author": { "@type": "Person", "name": "Iurie Praporscic" },
       "publisher": { "@type": "Person", "name": "Iurie Praporscic" }
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "About", "item": "{{ '/about/' | absolute_url }}" },
-        { "@type": "ListItem", "position": 2, "name": "Articles", "item": "{{ '/articles/' | absolute_url }}" },
+        { "@type": "ListItem", "position": 1, "name": {{ t.ui.nav_about | jsonify }}, "item": "{{ prefix | append: '/about/' | absolute_url }}" },
+        { "@type": "ListItem", "position": 2, "name": {{ t.ui.nav_articles | jsonify }}, "item": "{{ prefix | append: '/articles/' | absolute_url }}" },
         { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": "{{ canonical }}" }
       ]
     }

@@ -1,0 +1,20 @@
+{%- comment -%}
+  Finds the equivalent of the current page in language include.l. Sets:
+  alt_url    - URL of the real translation, or empty when there is none (used for hreflang)
+  alt_target - alt_url, or a sensible fallback page in that language (used by the switcher)
+{%- endcomment -%}
+{%- assign alt_url = '' -%}
+{%- if page.layout == 'article' -%}
+  {%- assign alt_doc = site.articles | where: 'ref', page.ref | where: 'lang', include.l.code | first -%}
+  {%- if alt_doc -%}
+    {%- assign alt_url = alt_doc.url -%}
+    {%- assign alt_target = alt_url -%}
+  {%- else -%}
+    {%- assign alt_target = include.l.prefix | append: '/articles/' -%}
+  {%- endif -%}
+{%- elsif page.page_key == 'notfound' -%}
+  {%- assign alt_target = include.l.prefix | append: '/about/' -%}
+{%- else -%}
+  {%- assign alt_url = include.l.prefix | append: slug -%}
+  {%- assign alt_target = alt_url -%}
+{%- endif -%}

@@ -1,11 +1,12 @@
+{%- include i18n.html -%}
 <footer class="site-footer">
   <div class="wrap">
-    <nav aria-label="Footer">
-      <a href="{{ '/about/' | relative_url }}">About the app</a>
-      <a href="{{ '/articles/' | relative_url }}">Articles</a>
-      <a href="{{ '/' | relative_url }}">Privacy policy</a>
+    <nav aria-label="{{ t.ui.footer_label | escape }}">
+      <a href="{{ prefix | append: '/about/' | relative_url }}">{{ t.ui.footer_about | escape }}</a>
+      <a href="{{ prefix | append: '/articles/' | relative_url }}">{{ t.ui.nav_articles | escape }}</a>
+      <a href="{{ prefix | append: '/' | relative_url }}">{{ t.ui.footer_privacy | escape }}</a>
       <a href="{{ site.app_store_url }}" rel="noopener">App Store</a>
     </nav>
-    <p>&copy; Inventory &amp; Stock Manager. Apple, iPhone, iPad and App Store are trademarks of Apple Inc.</p>
+    <p>&copy; Inventory &amp; Stock Manager. {{ t.ui.footer_trademark | escape }}</p>
   </div>
 </footer>

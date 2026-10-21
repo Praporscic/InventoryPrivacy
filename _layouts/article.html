@@ -1,16 +1,17 @@
 ---
 layout: default
 ---
+{%- include i18n.html -%}
 <article class="wrap article" itemscope itemtype="https://schema.org/Article">
-  <nav class="breadcrumbs" aria-label="Breadcrumb">
-    <a href="{{ '/about/' | relative_url }}">About</a> <span aria-hidden="true">/</span>
-    <a href="{{ '/articles/' | relative_url }}">Articles</a>
+  <nav class="breadcrumbs" aria-label="{{ t.ui.breadcrumb | escape }}">
+    <a href="{{ prefix | append: '/about/' | relative_url }}">{{ t.ui.nav_about | escape }}</a> <span aria-hidden="true">/</span>
+    <a href="{{ prefix | append: '/articles/' | relative_url }}">{{ t.ui.nav_articles | escape }}</a>
   </nav>
   <header class="article-header">
     <h1 itemprop="headline">{{ page.title | escape }}</h1>
     <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
     {%- if page.reading_time %}
-    <p class="meta">{{ page.reading_time }} min read</p>
+    <p class="meta">{{ t.ui.min_read | replace: '{n}', page.reading_time | escape }}</p>
     {%- endif %}
   </header>
 
@@ -20,7 +21,7 @@ layout: default
 
   {%- if page.faq %}
   <section class="faq" aria-labelledby="faq-h">
-    <h2 id="faq-h">Frequently asked questions</h2>
+    <h2 id="faq-h">{{ t.ui.faq | escape }}</h2>
     {%- for item in page.faq %}
     <details>
       <summary>{{ item.q }}</summary>
@@ -30,19 +31,19 @@ layout: default
   </section>
   {%- endif %}
 
-  <aside class="cta-card" aria-label="Download the app">
-    <img src="{{ '/assets/img/icon-192.webp' | relative_url }}" alt="Inventory &amp; Stock Manager app icon" width="72" height="72" loading="lazy">
+  <aside class="cta-card" aria-label="{{ t.ui.cta_label | escape }}">
+    <img src="{{ '/assets/img/icon-192.webp' | relative_url }}" alt="{{ t.ui.icon_alt | escape }}" width="72" height="72" loading="lazy">
     <div>
-      <h2>Try Inventory &amp; Stock Manager</h2>
-      <p>Free, offline stock tracking for iPhone and iPad. No account needed.</p>
+      <h2>{{ t.ui.cta_title | escape }}</h2>
+      <p>{{ t.ui.cta_text | escape }}</p>
       {% include download-button.html %}
     </div>
   </aside>
 
-  {%- assign others = site.articles | where_exp: "a", "a.url != page.url" | sort: "date" | reverse -%}
+  {%- assign others = site.articles | where: "lang", lang | where_exp: "a", "a.url != page.url" | sort: "date" | reverse -%}
   {%- if others.size > 0 %}
   <section class="related" aria-labelledby="related-h">
-    <h2 id="related-h">More articles</h2>
+    <h2 id="related-h">{{ t.ui.more_articles | escape }}</h2>
     <ul>
       {%- for a in others limit: 3 %}
       <li><a href="{{ a.url | relative_url }}">{{ a.title | escape }}</a></li>

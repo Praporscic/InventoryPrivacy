@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{%- include i18n.html -%}
+<div class="wrap narrow">
+  <h1>{{ t.articles.h1 | escape }}</h1>
+  <p class="sub">{{ t.articles.sub | escape }}</p>
+
+  <ul class="article-list">
+    {%- assign sorted = site.articles | where: "lang", lang | sort: "date" | reverse -%}
+    {%- for article in sorted %}
+    <li class="article-card">
+      <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
+      <p>{{ article.description }}</p>
+    </li>
+    {%- endfor %}
+  </ul>
+</div>

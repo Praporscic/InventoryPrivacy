@@ -1,0 +1,204 @@
+site:
+  description: "Inventory & Stock Manager ist eine kostenlose Offline-Inventar-App für iPhone und iPad. Verwalte Produkte, Größen und Lagerbestände, erfasse Verkäufe und sieh dir deinen Verkaufsverlauf an. Kein Konto nötig."
+
+ui:
+  skip: "Zum Inhalt springen"
+  nav_label: "Hauptnavigation"
+  nav_privacy: "Datenschutz"
+  nav_about: "Info"
+  nav_articles: "Artikel"
+  nav_cta: "App laden"
+  language: "Sprache"
+  footer_label: "Fußzeile"
+  footer_about: "Über die App"
+  footer_privacy: "Datenschutzerklärung"
+  footer_trademark: "Apple, iPhone, iPad und App Store sind Marken von Apple Inc."
+  download_aria: "Inventory & Stock Manager im App Store laden"
+  download_small: "Laden im"
+  breadcrumb: "Brotkrümelnavigation"
+  min_read: "{n} Min. Lesezeit"
+  faq: "Häufig gestellte Fragen"
+  cta_label: "App herunterladen"
+  icon_alt: "App-Symbol von Inventory & Stock Manager"
+  cta_title: "Inventory & Stock Manager ausprobieren"
+  cta_text: "Kostenlose Offline-Bestandsverwaltung für iPhone und iPad. Kein Konto nötig."
+  more_articles: "Weitere Artikel"
+
+pages:
+  privacy:
+    title: "Datenschutzerklärung"
+    description: "Datenschutzerklärung für Inventory & Stock Manager. Die App funktioniert komplett offline, hat kein Konto und speichert dein Inventar nur auf deinem Gerät."
+  about:
+    title: "Über die App"
+    seo_title: "Inventory & Stock Manager: Offline-Inventar-App für iPhone"
+    description: "Inventory & Stock Manager ist eine kostenlose Offline-Inventar-App für iPhone und iPad. Verwalte Produkte, Größen und Lagerbestände, erfasse Verkäufe und sieh deinen Verkaufsverlauf. Kein Konto nötig."
+  articles:
+    title: "Artikel"
+    seo_title: "Artikel zu Inventar- und Bestandsverwaltung | Inventory & Stock Manager"
+    description: "Ratgeber und Neuigkeiten zu Inventory & Stock Manager, einer kostenlosen Offline-Inventar-App für iPhone und iPad, plus praktische Tipps zur Bestandsverwaltung."
+  notfound:
+    title: "Seite nicht gefunden"
+    description: "Die gesuchte Seite wurde nicht gefunden."
+
+privacy:
+  h1: "Datenschutzerklärung"
+  intro: |-
+    <p>
+      Inventory &amp; Stock Manager („die App“) ist eine Offline-App zur Bestands- und Inventarverwaltung: Du legst Produkte,
+      Größen und Lagerbestände an, und alles, was du eingibst, bleibt auf deinem eigenen Gerät. Es gibt kein
+      Konto, keine Anmeldung und keinen von uns betriebenen Server – die App hat keinen Ort, an den sie deine Daten
+      senden könnte, selbst wenn sie wollte. Diese Seite erklärt, welche Daten bei der Nutzung erhoben werden und welche nicht.
+    </p>
+  sections:
+    - h: "Welche Informationen wir erheben"
+      body: |-
+        <p>
+          Die App selbst erhebt, überträgt oder speichert keinerlei personenbezogene Daten auf einem Server –
+          sie hat kein Backend und keine Benutzerkonten. Wir fragen weder nach deinem Namen, deiner E-Mail-Adresse,
+          Telefonnummer, deinem Standort, deinen Kontakten noch nach Gesundheitsdaten, und die App enthält keinerlei
+          Analyse- oder Absturzberichts-SDK.
+        </p>
+    - h: "Nur auf deinem Gerät gespeicherte Informationen"
+      body: |-
+        <p>
+          Alles, was du eingibst – Produktnamen, Größen, Lagerbestände, Verkaufsdaten, Produktfotos und
+          die gewählte App-Sprache – wird lokal auf deinem Gerät mit dem üblichen Gerätespeicher gesichert
+          (einer lokalen Datenbank und lokalem Dateispeicher). Nichts davon wird hochgeladen, synchronisiert oder irgendwohin gesendet.
+          Wenn du ein Produkt löschst oder die App deinstallierst, sind diese Daten weg, da sie nirgendwo sonst
+          existierten.
+        </p>
+    - h: "Zugriff auf Kamera und Fotomediathek"
+      body: |-
+        <p>
+          Wenn du einem Produkt ein Foto hinzufügen möchtest, bittet die App um Zugriff auf die Kamera oder die Fotomediathek,
+          damit du ein Foto auswählen oder aufnehmen kannst. Das Foto wird verkleinert und ausschließlich im privaten lokalen
+          Speicher der App auf deinem Gerät abgelegt – es wird weder an uns noch an Dritte hochgeladen.
+        </p>
+    - h: "Abonnements und Käufe"
+      body: |-
+        <p>
+          Die App bietet ein optionales Pro-Upgrade an. Käufe werden über den App Store von Apple oder Google
+          Play abgewickelt, und der Abonnementstatus wird für uns von <strong>RevenueCat</strong> verwaltet, einer Abonnementplattform
+          eines Drittanbieters. RevenueCat erhält eine zufällig erzeugte App-Nutzerkennung sowie die zur Prüfung deiner
+          Berechtigung nötigen Kauf- und Transaktionsdaten – deinen Namen, deine E-Mail-Adresse oder Zahlungsdaten geben wir
+          nicht an RevenueCat weiter, da wir diese Informationen selbst nie erheben. Details zur Datenverarbeitung findest du in der
+          Datenschutzerklärung von RevenueCat:
+        </p>
+        <ul>
+          <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Datenschutzerklärung von RevenueCat</a></li>
+        </ul>
+    - h: "Werbung"
+      body: |-
+        <p>
+          Die App enthält weder Werbung noch Werbe-SDKs und verfolgt dich nicht über andere Apps oder
+          Websites hinweg.
+        </p>
+    - h: "Datenschutz für Kinder"
+      body: |-
+        <p>
+          Diese App richtet sich an ein allgemeines Publikum und nicht speziell an Kinder unter
+          13 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern. Wenn du glaubst, dass ein Kind
+          über diese App personenbezogene Daten angegeben hat, kontaktiere uns bitte, damit wir uns darum kümmern können.
+        </p>
+    - h: "Datensicherheit"
+      body: |-
+        <p>
+          Da die App kein Backend hat und selbst keine personenbezogenen Daten überträgt, gibt es keinen
+          von der App verwalteten Fernspeicher mit deinen Informationen, den es abzusichern gäbe. Lokal auf deinem Gerät gespeicherte Daten sind
+          durch die Sicherheitsfunktionen des Betriebssystems deines Geräts geschützt. Die mit Abonnements verbundene Datenverarbeitung
+          erfolgt durch Apple, Google oder RevenueCat nach deren eigenen Sicherheits- und Datenschutzpraktiken.
+        </p>
+    - h: "Deine Wahlmöglichkeiten"
+      body: |-
+        <p>
+          Wenn du die App deinstallierst, werden alle auf deinem Gerät gespeicherten Daten (Produkte, Größen,
+          Bestände, Verkaufsverlauf und Fotos) dauerhaft gelöscht, da sie nirgendwo sonst existieren. Du kannst dein Abonnement
+          jederzeit in den Einstellungen deiner Apple-ID oder deines Google-Play-Kontos verwalten oder kündigen, oder über
+          „Abo verwalten“ in der App.
+        </p>
+    - h: "Änderungen dieser Erklärung"
+      body: |-
+        <p>
+          Wenn sich diese Erklärung ändert – etwa weil eine neue Funktion oder ein neues SDK hinzukommt –, wird diese Seite
+          entsprechend aktualisiert. Wir empfehlen dir, diese Seite regelmäßig
+          zu lesen.
+        </p>
+    - h: "Kontakt"
+      body: |-
+        <p>
+          Wenn du Fragen zu dieser Datenschutzerklärung hast, erreichst du uns unter:
+          <br />
+          <strong><a href="mailto:iosmyapps@yahoo.com">iosmyapps@yahoo.com</a></strong>
+        </p>
+
+about:
+  hero_h1: "Dein gesamtes Inventar. Voll im Griff."
+  hero_lead: "Inventory & Stock Manager ist ein einfacher Offline-Bestandsmanager für iPhone und iPad. Lege Produkte an, zähle den Bestand pro Größe, erfasse Verkäufe und sieh, was knapp wird – ohne Konto und ohne Internetverbindung."
+  read_overview: "Ganze Übersicht lesen"
+  hero_note: "Kostenlos laden. Funktioniert offline. Deine Daten bleiben auf deinem Gerät."
+  hero_img_alt: "Inventory & Stock Manager auf dem iPhone mit einer Produktliste mit Größen und Beständen"
+  features_h2: "Alles, was du für die Bestandsverwaltung brauchst"
+  features_sub: "Gemacht für kleine Läden, Marktverkäufer, Online-Wiederverkäufer und alle, die Lagerware führen und sie schnell und übersichtlich im Blick behalten möchten."
+  features:
+    - ico: "📦"
+      h: "Produkte mit Fotos"
+      p: "Füge zu jedem Produkt Namen, Foto, Preis, SKU und Beschreibung hinzu, damit du Artikel auf einen Blick erkennst."
+    - ico: "📏"
+      h: "Bestand pro Größe"
+      p: "Gib jedem Produkt so viele Größen, wie es braucht, und lege die Menge jeder Größe mit einfachen +/–-Schaltflächen fest."
+    - ico: "🗂️"
+      h: "Eigene Kategorien"
+      p: "Erstelle Listen wie Farbe, Marke oder Lieferant und ordne sie Produkten zu, um auch einen großen Katalog übersichtlich zu halten."
+    - ico: "🔎"
+      h: "Suche und Bestandsfilter"
+      p: "Finde jedes Produkt sofort und filtere nach Alle, Auf Lager, Geringer Bestand oder Nicht auf Lager, um zu sehen, was nachbestellt werden muss."
+    - ico: "🛒"
+      h: "Verkäufe in Sekunden erfassen"
+      p: "Wähle Produkt, Größe, Menge und Datum. Der Bestand wird automatisch aktualisiert, sobald ein Verkauf gespeichert ist."
+    - ico: "📈"
+      h: "Verkaufsverlauf"
+      p: "Sieh dir jeden erfassten Verkauf mit Produkt, Größe, Menge und Datum an und durchsuche vergangene Verkäufe."
+    - ico: "🌍"
+      h: "15 Sprachen"
+      p: "Englisch, Chinesisch, Japanisch, Spanisch, Französisch, Deutsch, Koreanisch, Portugiesisch (Brasilien), Italienisch, Russisch, Rumänisch, Arabisch, Türkisch, Niederländisch und Indonesisch."
+    - ico: "🔒"
+      h: "Privat und offline"
+      p: "Kein Konto, keine Anmeldung und kein Server. Alles, was du eingibst, wird lokal auf deinem Gerät gespeichert."
+  shots_h2: "So sieht es aus"
+  shots_sub: "Eine aufgeräumte Oberfläche für schnelle Einhandbedienung auf dem iPhone, die sich auch auf das iPad skaliert."
+  shots:
+    - alt: "Inventarliste mit Produktfotos, Größen und Beständen"
+      cap: "Dein gesamtes Inventar"
+    - alt: "Bildschirm „Produkt hinzufügen“ mit Name, Preis, SKU, Beschreibung, Kategorien und Größen"
+      cap: "Produkte anlegen und ordnen"
+    - alt: "Bildschirm „Verkauf erfassen“ mit Produktauswahl und Datumskalender"
+      cap: "Einen Verkauf erfassen"
+    - alt: "Liste des Verkaufsverlaufs mit Produkten, Größen und Daten"
+      cap: "Verkaufsverlauf"
+    - alt: "Einstellungsbildschirm mit Sprachauswahl"
+      cap: "Sprache sofort wechseln"
+  how_h2: "So funktioniert es"
+  how_sub: "Von der leeren App zum erfassten Katalog in wenigen Minuten."
+  steps:
+    - h: "Produkte hinzufügen"
+      p: "Mach oder wähle ein Foto, gib Namen, Preis und SKU ein und füge dann Größen mit ihren Anfangsbeständen hinzu."
+    - h: "Verkaufen und erfassen"
+      p: "Wenn etwas verkauft wird, erfasse es mit Produkt, Größe, Menge und Datum. Der Bestand sinkt automatisch."
+    - h: "Knappe Bestände prüfen"
+      p: "Filtere nach „Geringer Bestand“ oder „Nicht auf Lager“ und sieh genau, was nachbestellt werden muss."
+  free_h2: "Kostenlos starten, Pro für mehr"
+  free_sub: "Die App ist kostenlos zu laden und zu nutzen, ohne Werbung. <strong>Inventory Pro</strong> ist ein optionales Upgrade, das den Verkaufsverlauf freischaltet. Abonnements werden über deine Apple-ID verwaltet und können jederzeit gekündigt werden."
+  free_links: 'Wie mit deinen Daten umgegangen wird, liest du in der <a href="{privacy_url}">Datenschutzerklärung</a>, mehr erfährst du in der <a href="{overview_url}">ausführlichen App-Übersicht</a>.'
+  cta_h2: "Inventory & Stock Manager laden"
+  cta_sub: "Im App Store für iPhone und iPad erhältlich."
+
+articles:
+  h1: "Artikel"
+  sub: "Ratgeber und praktische Tipps zur Inventar- und Bestandsverwaltung sowie Neuigkeiten zu Inventory & Stock Manager."
+
+notfound:
+  h1: "Seite nicht gefunden"
+  p: "Leider konnten wir diese Seite nicht finden. Probiere stattdessen eine dieser Seiten:"
+  about_link: "Über Inventory & Stock Manager"
+  articles_link: "Artikel"
+  privacy_link: "Datenschutzerklärung"

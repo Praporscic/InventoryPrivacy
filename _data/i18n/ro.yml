@@ -1,0 +1,203 @@
+site:
+  description: "Inventory & Stock Manager este o aplicație de inventar gratuită, offline, pentru iPhone și iPad. Urmărește produse, mărimi și niveluri de stoc, înregistrează vânzări și consultă istoricul vânzărilor. Nu ai nevoie de cont."
+
+ui:
+  skip: "Sari la conținut"
+  nav_label: "Principal"
+  nav_privacy: "Confidențialitate"
+  nav_about: "Despre"
+  nav_articles: "Articole"
+  nav_cta: "Descarcă aplicația"
+  language: "Limbă"
+  footer_label: "Subsol"
+  footer_about: "Despre aplicație"
+  footer_privacy: "Politica de confidențialitate"
+  footer_trademark: "Apple, iPhone, iPad și App Store sunt mărci comerciale ale Apple Inc."
+  download_aria: "Descarcă Inventory & Stock Manager din App Store"
+  download_small: "Descarcă din"
+  breadcrumb: "Navigare ierarhică"
+  min_read: "{n} min de citit"
+  faq: "Întrebări frecvente"
+  cta_label: "Descarcă aplicația"
+  icon_alt: "Pictograma aplicației Inventory & Stock Manager"
+  cta_title: "Încearcă Inventory & Stock Manager"
+  cta_text: "Evidența stocurilor gratuită și offline pentru iPhone și iPad. Nu ai nevoie de cont."
+  more_articles: "Mai multe articole"
+
+pages:
+  privacy:
+    title: "Politica de confidențialitate"
+    description: "Politica de confidențialitate pentru Inventory & Stock Manager. Aplicația funcționează complet offline, nu are cont și păstrează inventarul doar pe dispozitivul tău."
+  about:
+    title: "Despre aplicație"
+    seo_title: "Inventory & Stock Manager: aplicație de inventar offline pentru iPhone"
+    description: "Inventory & Stock Manager este o aplicație de inventar gratuită, offline, pentru iPhone și iPad. Urmărește produse, mărimi și stocuri, înregistrează vânzări și vezi istoricul. Nu ai nevoie de cont."
+  articles:
+    title: "Articole"
+    seo_title: "Articole despre inventar și gestiunea stocurilor | Inventory & Stock Manager"
+    description: "Ghiduri și noutăți despre Inventory & Stock Manager, o aplicație de inventar gratuită, offline, pentru iPhone și iPad, plus sfaturi practice pentru evidența stocurilor."
+  notfound:
+    title: "Pagina nu a fost găsită"
+    description: "Pagina pe care o căutai nu a putut fi găsită."
+
+privacy:
+  h1: "Politica de confidențialitate"
+  intro: |-
+    <p>
+      Inventory &amp; Stock Manager („aplicația”) este un instrument offline de evidență a stocurilor și a inventarului: adaugi produse,
+      mărimi și cantități în stoc, iar tot ce introduci rămâne pe propriul tău dispozitiv. Nu există
+      cont, autentificare sau server operat de noi — aplicația nu are unde să-ți trimită datele,
+      chiar dacă ar vrea. Această pagină explică ce date sunt, și ce date nu sunt, colectate când o folosești.
+    </p>
+  sections:
+    - h: "Informațiile pe care le colectăm"
+      body: |-
+        <p>
+          Aplicația în sine nu colectează, nu transmite și nu stochează informații personale pe niciun server —
+          nu are backend și nici conturi de utilizator. Nu îți cerem numele, adresa de e-mail, numărul de telefon,
+          locația, contactele sau datele de sănătate, iar aplicația nu conține niciun SDK de analiză sau de raportare a erorilor.
+        </p>
+    - h: "Informații stocate doar pe dispozitivul tău"
+      body: |-
+        <p>
+          Tot ce introduci — numele produselor, mărimi, cantități în stoc, înregistrări de vânzări, fotografii ale produselor și
+          limba aplicației aleasă de tine — este salvat local pe dispozitivul tău, folosind stocarea standard a dispozitivului
+          (o bază de date locală și stocare locală de fișiere). Nimic din toate acestea nu este încărcat, sincronizat sau trimis nicăieri.
+          Dacă ștergi un produs sau dezinstalezi aplicația, acele date dispar, pentru că nu au existat nicăieri
+          altundeva.
+        </p>
+    - h: "Acces la cameră și la fototecă"
+      body: |-
+        <p>
+          Dacă alegi să atașezi o fotografie unui produs, aplicația solicită acces la cameră sau la fototecă
+          pentru a-ți permite să alegi sau să faci fotografia. Fotografia este redimensionată și salvată în stocarea locală
+          privată a aplicației, doar pe dispozitivul tău — nu este niciodată încărcată către noi sau către terți.
+        </p>
+    - h: "Abonamente și achiziții"
+      body: |-
+        <p>
+          Aplicația oferă o actualizare Pro opțională. Achizițiile sunt procesate de App Store de la Apple sau de Google
+          Play, iar starea abonamentului este gestionată pentru noi de <strong>RevenueCat</strong>, o platformă de
+          abonamente terță. RevenueCat primește un identificator de utilizator al aplicației generat aleatoriu și datele
+          de achiziție și tranzacție necesare pentru a-ți valida dreptul de acces — nu le comunicăm numele, e-mailul
+          sau datele de plată, deoarece noi nu colectăm niciodată aceste informații. Consultă politica de confidențialitate
+          a RevenueCat pentru detalii despre modul în care gestionează datele:
+        </p>
+        <ul>
+          <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Politica de confidențialitate RevenueCat</a></li>
+        </ul>
+    - h: "Publicitate"
+      body: |-
+        <p>
+          Aplicația nu conține reclame și nici SDK-uri publicitare și nu te urmărește în alte
+          aplicații sau pe alte site-uri.
+        </p>
+    - h: "Confidențialitatea copiilor"
+      body: |-
+        <p>
+          Această aplicație se adresează publicului larg și nu vizează în mod special copiii sub
+          13 ani. Nu colectăm cu bună știință informații personale de la copii. Dacă crezi că un copil a
+          furnizat informații personale prin această aplicație, te rugăm să ne contactezi pentru a putea rezolva situația.
+        </p>
+    - h: "Securitatea datelor"
+      body: |-
+        <p>
+          Deoarece aplicația nu are backend și nu transmite ea însăși date personale, nu există
+          stocare la distanță a informațiilor tale, gestionată de aplicație, care să trebuiască securizată. Datele stocate local pe dispozitivul tău sunt
+          protejate de securitatea sistemului de operare al dispozitivului. Orice prelucrare de date asociată
+          abonamentelor este efectuată de Apple, Google sau RevenueCat conform propriilor practici de securitate și confidențialitate.
+        </p>
+    - h: "Opțiunile tale"
+      body: |-
+        <p>
+          Dezinstalarea aplicației șterge definitiv tot ce a stocat pe dispozitivul tău (produse, mărimi,
+          stocuri, istoricul vânzărilor și fotografii), deoarece nimic din toate acestea nu există în altă parte. Îți poți gestiona sau
+          anula abonamentul oricând din setările ID-ului Apple sau ale contului Google Play,
+          ori prin „Gestionează abonamentul” din aplicație.
+        </p>
+    - h: "Modificări ale acestei politici"
+      body: |-
+        <p>
+          Dacă această politică se modifică — de exemplu, dacă se adaugă o funcție sau un SDK nou — această pagină va fi
+          actualizată în consecință. Te încurajăm să consulți
+          periodic această pagină.
+        </p>
+    - h: "Contact"
+      body: |-
+        <p>
+          Dacă ai întrebări despre această politică de confidențialitate, scrie-ne la:
+          <br />
+          <strong><a href="mailto:iosmyapps@yahoo.com">iosmyapps@yahoo.com</a></strong>
+        </p>
+
+about:
+  hero_h1: "Tot inventarul tău. Sub control."
+  hero_lead: "Inventory & Stock Manager este un instrument simplu, offline, de evidență a stocurilor pentru iPhone și iPad. Adaugă produse, numără stocul pe mărimi, înregistrează vânzări și vezi ce se termină — fără cont și fără conexiune la internet."
+  read_overview: "Citește prezentarea completă"
+  hero_note: "Descărcare gratuită. Funcționează offline. Datele tale rămân pe dispozitiv."
+  hero_img_alt: "Inventory & Stock Manager pe iPhone, cu o listă de produse cu mărimi și cantități în stoc"
+  features_h2: "Tot ce ai nevoie pentru evidența stocurilor"
+  features_sub: "Creată pentru magazine mici, vânzători din piețe, revânzători online și oricine ține stoc și vrea să-l vadă rapid și clar."
+  features:
+    - ico: "📦"
+      h: "Produse cu fotografii"
+      p: "Adaugă nume, fotografie, preț, SKU și descriere pentru fiecare produs, ca să recunoști articolele dintr-o privire."
+    - ico: "📏"
+      h: "Stoc pe mărimi"
+      p: "Dă fiecărui produs câte mărimi are nevoie și setează cantitatea pentru fiecare cu simple butoane +/–."
+    - ico: "🗂️"
+      h: "Categoriile tale"
+      p: "Creează liste precum Culoare, Marcă sau Furnizor și atașează-le produselor pentru a ține organizat un catalog mare."
+    - ico: "🔎"
+      h: "Căutare și filtre de stoc"
+      p: "Găsește instant orice produs și filtrează după Toate, În stoc, Stoc redus sau Stoc epuizat pentru a vedea ce trebuie reaprovizionat."
+    - ico: "🛒"
+      h: "Înregistrează vânzări în câteva secunde"
+      p: "Alege produsul, mărimea, cantitatea și data. Stocul se actualizează automat când o vânzare este salvată."
+    - ico: "📈"
+      h: "Istoricul vânzărilor"
+      p: "Revezi fiecare vânzare înregistrată, cu produs, mărime, cantitate și dată, și caută în vânzările anterioare."
+    - ico: "🌍"
+      h: "15 limbi"
+      p: "Engleză, chineză, japoneză, spaniolă, franceză, germană, coreeană, portugheză (Brazilia), italiană, rusă, română, arabă, turcă, olandeză și indoneziană."
+    - ico: "🔒"
+      h: "Privată și offline"
+      p: "Fără cont, fără autentificare și fără server. Tot ce introduci este stocat local pe dispozitivul tău."
+  shots_h2: "Vezi-o în acțiune"
+  shots_sub: "O interfață curată, proiectată pentru utilizare rapidă cu o singură mână pe iPhone, care se adaptează și la iPad."
+  shots:
+    - alt: "Lista de inventar cu fotografii de produse, mărimi și niveluri de stoc"
+      cap: "Tot inventarul tău"
+    - alt: "Ecranul Adaugă produs cu nume, preț, SKU, descriere, categorii și mărimi"
+      cap: "Adaugă și organizează produse"
+    - alt: "Ecranul Înregistrează vânzare cu selector de produs și calendar"
+      cap: "Înregistrează o vânzare"
+    - alt: "Lista Istoricul vânzărilor, cu produse, mărimi și date"
+      cap: "Istoricul vânzărilor"
+    - alt: "Ecranul de setări cu selector de limbă"
+      cap: "Schimbă limba instant"
+  how_h2: "Cum funcționează"
+  how_sub: "De la o aplicație goală la un catalog urmărit, în câteva minute."
+  steps:
+    - h: "Adaugă produsele"
+      p: "Fă sau alege o fotografie, introdu un nume, un preț și un SKU, apoi adaugă mărimile cu cantitățile inițiale."
+    - h: "Vinde și înregistrează"
+      p: "Când se vinde ceva, înregistrează vânzarea cu produsul, mărimea, cantitatea și data. Stocul scade automat."
+    - h: "Verifică ce se termină"
+      p: "Filtrează după Stoc redus sau Stoc epuizat și vezi exact ce trebuie recomandat."
+  free_h2: "Gratuită pentru început, Pro dacă vrei mai mult"
+  free_sub: "Aplicația este gratuită de descărcat și de folosit, fără reclame. <strong>Inventory Pro</strong> este o actualizare opțională care deblochează istoricul vânzărilor. Abonamentele sunt gestionate prin ID-ul tău Apple și pot fi anulate oricând."
+  free_links: 'Citește cum sunt tratate datele tale în <a href="{privacy_url}">politica de confidențialitate</a> sau află mai multe în <a href="{overview_url}">prezentarea completă a aplicației</a>.'
+  cta_h2: "Descarcă Inventory & Stock Manager"
+  cta_sub: "Disponibilă în App Store pentru iPhone și iPad."
+
+articles:
+  h1: "Articole"
+  sub: "Ghiduri și sfaturi practice despre inventar și gestiunea stocurilor, plus noutăți despre Inventory & Stock Manager."
+
+notfound:
+  h1: "Pagina nu a fost găsită"
+  p: "Ne pare rău, nu am găsit pagina respectivă. Încearcă una dintre acestea:"
+  about_link: "Despre Inventory & Stock Manager"
+  articles_link: "Articole"
+  privacy_link: "Politica de confidențialitate"

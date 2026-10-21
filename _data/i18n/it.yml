@@ -1,0 +1,202 @@
+site:
+  description: "Inventory & Stock Manager è un’app di inventario gratuita e offline per iPhone e iPad. Tieni traccia di prodotti, taglie e livelli di scorta, registra le vendite e consulta lo storico. Nessun account necessario."
+
+ui:
+  skip: "Vai al contenuto"
+  nav_label: "Principale"
+  nav_privacy: "Privacy"
+  nav_about: "Info"
+  nav_articles: "Articoli"
+  nav_cta: "Scarica l’app"
+  language: "Lingua"
+  footer_label: "Piè di pagina"
+  footer_about: "Info sull’app"
+  footer_privacy: "Informativa sulla privacy"
+  footer_trademark: "Apple, iPhone, iPad e App Store sono marchi di Apple Inc."
+  download_aria: "Scarica Inventory & Stock Manager su App Store"
+  download_small: "Scarica su"
+  breadcrumb: "Percorso di navigazione"
+  min_read: "{n} min di lettura"
+  faq: "Domande frequenti"
+  cta_label: "Scarica l’app"
+  icon_alt: "Icona dell’app Inventory & Stock Manager"
+  cta_title: "Prova Inventory & Stock Manager"
+  cta_text: "Gestione scorte gratuita e offline per iPhone e iPad. Nessun account necessario."
+  more_articles: "Altri articoli"
+
+pages:
+  privacy:
+    title: "Informativa sulla privacy"
+    description: "Informativa sulla privacy di Inventory & Stock Manager. L’app funziona completamente offline, non ha un account e conserva il tuo inventario solo sul tuo dispositivo."
+  about:
+    title: "Info sull’app"
+    seo_title: "Inventory & Stock Manager: app di inventario offline per iPhone"
+    description: "Inventory & Stock Manager è un’app di inventario gratuita e offline per iPhone e iPad. Tieni traccia di prodotti, taglie e scorte, registra le vendite e consulta lo storico. Nessun account necessario."
+  articles:
+    title: "Articoli"
+    seo_title: "Articoli su inventario e gestione delle scorte | Inventory & Stock Manager"
+    description: "Guide e novità su Inventory & Stock Manager, un’app di inventario gratuita e offline per iPhone e iPad, più consigli pratici per tenere sotto controllo le scorte."
+  notfound:
+    title: "Pagina non trovata"
+    description: "La pagina che stavi cercando non è stata trovata."
+
+privacy:
+  h1: "Informativa sulla privacy"
+  intro: |-
+    <p>
+      Inventory &amp; Stock Manager (“l’app”) è uno strumento offline per la gestione di scorte e inventario: aggiungi prodotti,
+      taglie e quantità in magazzino, e tutto ciò che inserisci resta sul tuo dispositivo. Non esistono
+      account, accessi né server gestiti da noi: l’app non ha alcun posto dove inviare i tuoi dati,
+      neppure volendo. Questa pagina spiega quali dati vengono, e quali no, raccolti quando la usi.
+    </p>
+  sections:
+    - h: "Informazioni che raccogliamo"
+      body: |-
+        <p>
+          L’app in sé non raccoglie, trasmette né memorizza alcuna informazione personale su alcun server:
+          non ha un backend né account utente. Non ti chiediamo nome, indirizzo e-mail, numero di telefono,
+          posizione, contatti o dati sulla salute, e l’app non contiene alcun SDK di analisi o di segnalazione degli arresti anomali.
+        </p>
+    - h: "Informazioni memorizzate solo sul tuo dispositivo"
+      body: |-
+        <p>
+          Tutto ciò che inserisci (nomi dei prodotti, taglie, quantità in magazzino, registrazioni delle vendite, foto dei prodotti e
+          la lingua dell’app che hai scelto) viene salvato localmente sul tuo dispositivo tramite l’archiviazione standard del dispositivo
+          (un database locale e un archivio locale di file). Nulla viene caricato, sincronizzato o inviato altrove.
+          Se elimini un prodotto o disinstalli l’app, quei dati scompaiono, perché non sono mai esistiti altrove.
+        </p>
+    - h: "Accesso alla fotocamera e alla libreria foto"
+      body: |-
+        <p>
+          Se scegli di allegare una foto a un prodotto, l’app richiede l’accesso alla fotocamera o alla libreria foto
+          per permetterti di scegliere o scattare la foto. La foto viene ridimensionata e salvata nell’archivio locale privato
+          dell’app, solo sul tuo dispositivo: non viene mai caricata da noi né da terze parti.
+        </p>
+    - h: "Abbonamenti e acquisti"
+      body: |-
+        <p>
+          L’app offre un upgrade Pro facoltativo. Gli acquisti sono elaborati dall’App Store di Apple o da Google
+          Play, e lo stato dell’abbonamento è gestito per noi da <strong>RevenueCat</strong>, una piattaforma di
+          abbonamenti di terze parti. RevenueCat riceve un identificatore utente dell’app generato casualmente e i
+          dati di acquisto e transazione necessari per convalidare il tuo diritto di accesso: non condividiamo con loro il tuo nome, la tua e-mail
+          o i dati di pagamento, perché non raccogliamo mai noi stessi queste informazioni. Consulta l’informativa sulla
+          privacy di RevenueCat per i dettagli sul trattamento dei dati:
+        </p>
+        <ul>
+          <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Informativa sulla privacy di RevenueCat</a></li>
+        </ul>
+    - h: "Pubblicità"
+      body: |-
+        <p>
+          L’app non contiene pubblicità né SDK pubblicitari e non ti traccia su altre
+          app o siti web.
+        </p>
+    - h: "Privacy dei minori"
+      body: |-
+        <p>
+          Questa app è destinata a un pubblico generale e non è rivolta specificamente ai minori di
+          13 anni. Non raccogliamo consapevolmente informazioni personali dai minori. Se ritieni che un minore abbia
+          fornito informazioni personali tramite questa app, contattaci in modo da poter intervenire.
+        </p>
+    - h: "Sicurezza dei dati"
+      body: |-
+        <p>
+          Poiché l’app non ha un backend e non trasmette di per sé dati personali, non esiste alcun archivio
+          remoto delle tue informazioni gestito dall’app da proteggere. I dati memorizzati localmente sul tuo dispositivo sono
+          protetti dalla sicurezza del sistema operativo del dispositivo stesso. Qualsiasi trattamento di dati legato agli
+          abbonamenti è effettuato da Apple, Google o RevenueCat secondo le rispettive prassi di sicurezza e privacy.
+        </p>
+    - h: "Le tue scelte"
+      body: |-
+        <p>
+          Disinstallando l’app elimini definitivamente tutto ciò che ha memorizzato sul tuo dispositivo (prodotti, taglie,
+          scorte, storico delle vendite e foto), poiché nulla di tutto ciò esiste altrove. Puoi gestire o
+          annullare l’abbonamento in qualsiasi momento dalle impostazioni dell’ID Apple o dell’account Google Play,
+          oppure tramite “Gestisci abbonamento” nell’app.
+        </p>
+    - h: "Modifiche a questa informativa"
+      body: |-
+        <p>
+          Se questa informativa cambia, ad esempio se viene aggiunta una nuova funzione o un nuovo SDK, questa pagina verrà
+          aggiornata di conseguenza. Ti invitiamo a consultarla
+          periodicamente.
+        </p>
+    - h: "Contattaci"
+      body: |-
+        <p>
+          Per domande su questa informativa sulla privacy, scrivici a:
+          <br />
+          <strong><a href="mailto:iosmyapps@yahoo.com">iosmyapps@yahoo.com</a></strong>
+        </p>
+
+about:
+  hero_h1: "Tutto il tuo inventario. Sotto controllo."
+  hero_lead: "Inventory & Stock Manager è uno strumento semplice e offline per tenere traccia delle scorte su iPhone e iPad. Aggiungi prodotti, conta le scorte per taglia, registra le vendite e scopri cosa sta finendo, senza account e senza connessione a internet."
+  read_overview: "Leggi la panoramica completa"
+  hero_note: "Download gratuito. Funziona offline. I tuoi dati restano sul tuo dispositivo."
+  hero_img_alt: "Inventory & Stock Manager su iPhone con un elenco di prodotti con taglie e quantità in magazzino"
+  features_h2: "Tutto ciò che serve per tenere traccia delle scorte"
+  features_sub: "Pensata per piccoli negozi, venditori nei mercati, rivenditori online e chiunque abbia merce a magazzino e voglia vederla in modo rapido e chiaro."
+  features:
+    - ico: "📦"
+      h: "Prodotti con foto"
+      p: "Aggiungi nome, foto, prezzo, SKU e descrizione a ogni prodotto, così riconosci gli articoli a colpo d’occhio."
+    - ico: "📏"
+      h: "Scorte per taglia"
+      p: "Dai a ogni prodotto tutte le taglie che servono e imposta la quantità di ciascuna con semplici pulsanti +/–."
+    - ico: "🗂️"
+      h: "Le tue categorie"
+      p: "Crea elenchi come Colore, Marca o Fornitore e associali ai prodotti per tenere in ordine un catalogo ampio."
+    - ico: "🔎"
+      h: "Ricerca e filtri scorte"
+      p: "Trova subito qualsiasi prodotto e filtra per Tutti, Disponibili, Scorte basse o Esauriti per vedere cosa va riassortito."
+    - ico: "🛒"
+      h: "Registra le vendite in pochi secondi"
+      p: "Scegli prodotto, taglia, quantità e data. Le scorte si aggiornano automaticamente quando salvi una vendita."
+    - ico: "📈"
+      h: "Storico vendite"
+      p: "Rivedi ogni vendita registrata con prodotto, taglia, quantità e data, e cerca tra le vendite passate."
+    - ico: "🌍"
+      h: "15 lingue"
+      p: "Inglese, cinese, giapponese, spagnolo, francese, tedesco, coreano, portoghese (Brasile), italiano, russo, rumeno, arabo, turco, olandese e indonesiano."
+    - ico: "🔒"
+      h: "Privata e offline"
+      p: "Nessun account, nessun accesso e nessun server. Tutto ciò che inserisci è memorizzato localmente sul tuo dispositivo."
+  shots_h2: "Guardala in azione"
+  shots_sub: "Un’interfaccia pulita pensata per un uso rapido con una sola mano su iPhone, che si adatta anche a iPad."
+  shots:
+    - alt: "Elenco dell’inventario con foto dei prodotti, taglie e livelli di scorta"
+      cap: "Tutto il tuo inventario"
+    - alt: "Schermata Aggiungi prodotto con nome, prezzo, SKU, descrizione, categorie e taglie"
+      cap: "Aggiungi e organizza i prodotti"
+    - alt: "Schermata Registra vendita con selettore del prodotto e calendario"
+      cap: "Registra una vendita"
+    - alt: "Elenco dello storico vendite con prodotti, taglie e date"
+      cap: "Storico vendite"
+    - alt: "Schermata delle impostazioni con selettore della lingua"
+      cap: "Cambia lingua all’istante"
+  how_h2: "Come funziona"
+  how_sub: "Da un’app vuota a un catalogo sotto controllo in pochi minuti."
+  steps:
+    - h: "Aggiungi i tuoi prodotti"
+      p: "Scatta o scegli una foto, inserisci nome, prezzo e SKU, poi aggiungi le taglie con le quantità iniziali."
+    - h: "Vendi e registra"
+      p: "Quando vendi qualcosa, registralo con prodotto, taglia, quantità e data. Le scorte calano automaticamente."
+    - h: "Controlla cosa sta finendo"
+      p: "Filtra per Scorte basse o Esauriti e vedi esattamente cosa va riordinato."
+  free_h2: "Gratis per iniziare, Pro se vuoi di più"
+  free_sub: "L’app è gratuita da scaricare e usare, senza pubblicità. <strong>Inventory Pro</strong> è un upgrade facoltativo che sblocca lo storico vendite. Gli abbonamenti sono gestiti tramite il tuo ID Apple e si possono annullare in qualsiasi momento."
+  free_links: 'Scopri come vengono trattati i tuoi dati nell’<a href="{privacy_url}">informativa sulla privacy</a>, oppure approfondisci nella <a href="{overview_url}">panoramica completa dell’app</a>.'
+  cta_h2: "Scarica Inventory & Stock Manager"
+  cta_sub: "Disponibile su App Store per iPhone e iPad."
+
+articles:
+  h1: "Articoli"
+  sub: "Guide e consigli pratici su inventario e gestione delle scorte, e novità su Inventory & Stock Manager."
+
+notfound:
+  h1: "Pagina non trovata"
+  p: "Spiacenti, non siamo riusciti a trovare quella pagina. Prova una di queste:"
+  about_link: "Info su Inventory & Stock Manager"
+  articles_link: "Articoli"
+  privacy_link: "Informativa sulla privacy"

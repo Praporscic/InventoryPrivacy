@@ -1,0 +1,14 @@
+{%- include i18n.html -%}
+<details class="lang-switch">
+  <summary aria-label="{{ t.ui.language | escape }}" title="{{ t.ui.language | escape }}">
+    <svg class="lang-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></g></svg>
+    <span class="lang-current">{{ lang | upcase }}</span>
+    <svg class="lang-caret" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg>
+  </summary>
+  <ul class="lang-menu" aria-label="{{ t.ui.language | escape }}">
+    {%- for l in site.data.languages %}
+    {%- include lang-url.html l=l %}
+    <li><a href="{{ alt_target | relative_url }}" lang="{{ l.html_lang }}" hreflang="{{ l.html_lang }}"{% if l.code == lang %} aria-current="true"{% endif %}>{{ l.name }}</a></li>
+    {%- endfor %}
+  </ul>
+</details>

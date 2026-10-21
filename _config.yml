@@ -23,6 +23,7 @@ defaults:
       type: articles
     values:
       layout: article
+      lang: en
 
 exclude:
   - README.md

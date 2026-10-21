@@ -1,0 +1,204 @@
+site:
+  description: "Inventory & Stock Manager, iPhone ve iPad için ücretsiz, çevrimdışı bir envanter uygulamasıdır. Ürünleri, bedenleri ve stok seviyelerini takip edin, satışları kaydedin ve satış geçmişinizi inceleyin. Hesap gerekmez."
+
+ui:
+  skip: "İçeriğe geç"
+  nav_label: "Ana menü"
+  nav_privacy: "Gizlilik"
+  nav_about: "Hakkında"
+  nav_articles: "Makaleler"
+  nav_cta: "Uygulamayı edin"
+  language: "Dil"
+  footer_label: "Alt bilgi"
+  footer_about: "Uygulama hakkında"
+  footer_privacy: "Gizlilik politikası"
+  footer_trademark: "Apple, iPhone, iPad ve App Store, Apple Inc. şirketinin ticari markalarıdır."
+  download_aria: "Inventory & Stock Manager uygulamasını App Store’dan indirin"
+  download_small: "İndirin:"
+  breadcrumb: "Sayfa yolu"
+  min_read: "{n} dk okuma"
+  faq: "Sık sorulan sorular"
+  cta_label: "Uygulamayı indirin"
+  icon_alt: "Inventory & Stock Manager uygulama simgesi"
+  cta_title: "Inventory & Stock Manager’ı deneyin"
+  cta_text: "iPhone ve iPad için ücretsiz, çevrimdışı stok takibi. Hesap gerekmez."
+  more_articles: "Diğer makaleler"
+
+pages:
+  privacy:
+    title: "Gizlilik Politikası"
+    description: "Inventory & Stock Manager gizlilik politikası. Uygulama tamamen çevrimdışı çalışır, hesap gerektirmez ve envanterinizi yalnızca cihazınızda saklar."
+  about:
+    title: "Uygulama hakkında"
+    seo_title: "Inventory & Stock Manager: iPhone için çevrimdışı envanter uygulaması"
+    description: "Inventory & Stock Manager, iPhone ve iPad için ücretsiz, çevrimdışı bir envanter uygulamasıdır. Ürünleri, bedenleri ve stokları takip edin, satışları kaydedin ve satış geçmişinizi görün. Hesap gerekmez."
+  articles:
+    title: "Makaleler"
+    seo_title: "Envanter ve stok yönetimi makaleleri | Inventory & Stock Manager"
+    description: "iPhone ve iPad için ücretsiz çevrimdışı envanter uygulaması Inventory & Stock Manager hakkında rehberler ve haberler, ayrıca stok takibi için pratik ipuçları."
+  notfound:
+    title: "Sayfa bulunamadı"
+    description: "Aradığınız sayfa bulunamadı."
+
+privacy:
+  h1: "Gizlilik Politikası"
+  intro: |-
+    <p>
+      Inventory &amp; Stock Manager (“uygulama”) çevrimdışı çalışan bir stok/envanter takip uygulamasıdır: ürünleri,
+      bedenleri ve stok miktarlarını eklersiniz ve girdiğiniz her şey yalnızca kendi cihazınızda kalır. Hesap,
+      oturum açma ve bizim işlettiğimiz bir sunucu yoktur — uygulama istese bile verilerinizi gönderebileceği
+      bir yer yoktur. Bu sayfa, uygulamayı kullandığınızda hangi verilerin toplandığını ve hangilerinin toplanmadığını açıklar.
+    </p>
+  sections:
+    - h: "Topladığımız Bilgiler"
+      body: |-
+        <p>
+          Uygulamanın kendisi hiçbir sunucuda kişisel bilgi toplamaz, iletmez veya saklamaz —
+          arka ucu ve kullanıcı hesapları yoktur. Sizden adınızı, e-posta adresinizi, telefon numaranızı,
+          konumunuzu, kişilerinizi veya sağlık verilerinizi istemeyiz ve uygulama hiçbir analiz veya çökme raporlama
+          SDK’sı içermez.
+        </p>
+    - h: "Yalnızca Cihazınızda Saklanan Bilgiler"
+      body: |-
+        <p>
+          Girdiğiniz her şey — ürün adları, bedenler, stok miktarları, satış kayıtları, ürün fotoğrafları ve
+          seçtiğiniz uygulama dili — cihazınızda standart cihaz içi depolama kullanılarak yerel olarak kaydedilir
+          (yerel bir veritabanı ve yerel dosya depolama). Bunların hiçbiri yüklenmez, eşitlenmez veya herhangi bir yere gönderilmez.
+          Bir ürünü silerseniz veya uygulamayı kaldırırsanız bu veriler yok olur, çünkü başka hiçbir yerde
+          bulunmuyordu.
+        </p>
+    - h: "Kamera ve Fotoğraf Kitaplığı Erişimi"
+      body: |-
+        <p>
+          Bir ürüne fotoğraf eklemeyi seçerseniz uygulama, fotoğrafı seçebilmeniz veya çekebilmeniz için kameraya
+          ya da fotoğraf kitaplığına erişim ister. Fotoğraf yeniden boyutlandırılır ve yalnızca cihazınızda,
+          uygulamanın özel yerel depolama alanına kaydedilir — bize veya herhangi bir üçüncü tarafa asla yüklenmez.
+        </p>
+    - h: "Abonelikler ve Satın Alımlar"
+      body: |-
+        <p>
+          Uygulama isteğe bağlı bir Pro yükseltmesi sunar. Satın alımlar Apple’ın App Store’u veya Google
+          Play tarafından işlenir; abonelik durumu ise bizim adımıza üçüncü taraf bir abonelik platformu olan
+          <strong>RevenueCat</strong> tarafından yönetilir. RevenueCat, rastgele oluşturulmuş bir uygulama kullanıcı kimliğini ve
+          erişim hakkınızı doğrulamak için gereken satın alma/işlem verilerini alır — adınızı, e-postanızı
+          veya ödeme bilgilerinizi onlarla paylaşmayız, çünkü bu bilgileri biz hiçbir zaman toplamayız. Veri işleme
+          ayrıntıları için RevenueCat’in kendi gizlilik politikasına bakın:
+        </p>
+        <ul>
+          <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Gizlilik Politikası</a></li>
+        </ul>
+    - h: "Reklam"
+      body: |-
+        <p>
+          Uygulama reklam veya reklam SDK’sı içermez ve sizi diğer uygulamalarda ya da
+          web sitelerinde izlemez.
+        </p>
+    - h: "Çocukların Gizliliği"
+      body: |-
+        <p>
+          Bu uygulama genel bir kitleye yöneliktir ve özellikle 13 yaşın altındaki çocuklara
+          yönelik değildir. Çocuklardan bilerek kişisel bilgi toplamayız. Bir çocuğun bu uygulama aracılığıyla
+          kişisel bilgi verdiğini düşünüyorsanız, konuyu ele alabilmemiz için lütfen bizimle iletişime geçin.
+        </p>
+    - h: "Veri Güvenliği"
+      body: |-
+        <p>
+          Uygulamanın arka ucu olmadığı ve kendi başına kişisel veri iletmediği için, güvence altına alınması gereken
+          ve uygulama tarafından yönetilen uzak bir bilgi depolaması yoktur. Cihazınızda yerel olarak saklanan veriler
+          cihazınızın kendi işletim sistemi güvenliğiyle korunur. Aboneliklerle ilgili her türlü veri işleme, Apple, Google veya
+          RevenueCat tarafından kendi güvenlik ve gizlilik uygulamaları çerçevesinde yürütülür.
+        </p>
+    - h: "Seçimleriniz"
+      body: |-
+        <p>
+          Uygulamayı kaldırmak, cihazınızda sakladığı her şeyi (ürünler, bedenler, stok, satış geçmişi
+          ve fotoğraflar) kalıcı olarak siler, çünkü bunların hiçbiri başka bir yerde bulunmaz. Aboneliğinizi istediğiniz zaman
+          Apple Kimliği veya Google Play hesap ayarlarınızdan ya da uygulamadaki
+          “Aboneliği Yönet” seçeneğinden yönetebilir veya iptal edebilirsiniz.
+        </p>
+    - h: "Bu Politikadaki Değişiklikler"
+      body: |-
+        <p>
+          Bu politika değişirse — örneğin yeni bir özellik veya SDK eklenirse — bu sayfa
+          buna göre güncellenir. Bu sayfayı düzenli aralıklarla
+          gözden geçirmenizi öneririz.
+        </p>
+    - h: "Bize Ulaşın"
+      body: |-
+        <p>
+          Bu gizlilik politikasıyla ilgili sorularınız için bize şu adresten ulaşabilirsiniz:
+          <br />
+          <strong><a href="mailto:iosmyapps@yahoo.com">iosmyapps@yahoo.com</a></strong>
+        </p>
+
+about:
+  hero_h1: "Tüm envanteriniz. Kontrol altında."
+  hero_lead: "Inventory & Stock Manager, iPhone ve iPad için basit ve çevrimdışı bir stok takip uygulamasıdır. Ürün ekleyin, stoğu beden bazında sayın, satışları kaydedin ve nelerin azaldığını görün — hesap ya da internet bağlantısı gerekmeden."
+  read_overview: "Tüm genel bakışı okuyun"
+  hero_note: "İndirmesi ücretsiz. Çevrimdışı çalışır. Verileriniz cihazınızda kalır."
+  hero_img_alt: "iPhone’da bedenleri ve stok adetleriyle bir ürün listesini gösteren Inventory & Stock Manager"
+  features_h2: "Stok takibi için ihtiyacınız olan her şey"
+  features_sub: "Küçük dükkânlar, pazar satıcıları, çevrimiçi yeniden satıcılar ve stok tutan, bunu hızlı ve net görmek isteyen herkes için tasarlandı."
+  features:
+    - ico: "📦"
+      h: "Fotoğraflı ürünler"
+      p: "Her ürün için ad, fotoğraf, fiyat, SKU ve açıklama ekleyin; ürünleri bir bakışta tanıyın."
+    - ico: "📏"
+      h: "Beden bazında stok"
+      p: "Her ürüne ihtiyaç duyduğu kadar beden verin ve her bedenin adedini basit +/– düğmeleriyle ayarlayın."
+    - ico: "🗂️"
+      h: "Kendi kategorileriniz"
+      p: "Renk, Marka veya Tedarikçi gibi listeler oluşturup ürünlere bağlayın; büyük bir kataloğu düzenli tutun."
+    - ico: "🔎"
+      h: "Arama ve stok filtreleri"
+      p: "İstediğiniz ürünü anında bulun; Tümü, Stokta, Az Stok veya Stokta Yok filtreleriyle nelerin yenilenmesi gerektiğini görün."
+    - ico: "🛒"
+      h: "Saniyeler içinde satış kaydı"
+      p: "Ürün, beden, adet ve tarih seçin. Satış kaydedildiğinde stok otomatik olarak güncellenir."
+    - ico: "📈"
+      h: "Satış geçmişi"
+      p: "Kaydedilen her satışı ürün, beden, adet ve tarihle birlikte inceleyin ve geçmiş satışlarda arama yapın."
+    - ico: "🌍"
+      h: "15 dil"
+      p: "İngilizce, Çince, Japonca, İspanyolca, Fransızca, Almanca, Korece, Portekizce (Brezilya), İtalyanca, Rusça, Romence, Arapça, Türkçe, Felemenkçe ve Endonezce."
+    - ico: "🔒"
+      h: "Gizli ve çevrimdışı"
+      p: "Hesap yok, oturum açma yok, sunucu yok. Girdiğiniz her şey yerel olarak cihazınızda saklanır."
+  shots_h2: "Çalışırken görün"
+  shots_sub: "iPhone’da hızlı, tek elle kullanım için tasarlanmış sade bir arayüz; iPad’e de uyum sağlar."
+  shots:
+    - alt: "Ürün fotoğrafları, bedenler ve stok seviyeleriyle envanter listesi"
+      cap: "Tüm envanteriniz"
+    - alt: "Ad, fiyat, SKU, açıklama, kategoriler ve bedenlerle Ürün Ekle ekranı"
+      cap: "Ürünleri ekleyin ve düzenleyin"
+    - alt: "Ürün seçici ve tarih takvimiyle Satış Kaydet ekranı"
+      cap: "Satış kaydedin"
+    - alt: "Ürünleri, bedenleri ve tarihleri gösteren Satış Geçmişi listesi"
+      cap: "Satış geçmişi"
+    - alt: "Dil seçicili Ayarlar ekranı"
+      cap: "Dili anında değiştirin"
+  how_h2: "Nasıl çalışır"
+  how_sub: "Boş bir uygulamadan izlenen bir kataloğa birkaç dakikada."
+  steps:
+    - h: "Ürünlerinizi ekleyin"
+      p: "Fotoğraf çekin veya seçin, ad, fiyat ve SKU girin, ardından bedenleri başlangıç adetleriyle ekleyin."
+    - h: "Satın ve kaydedin"
+      p: "Bir ürün satıldığında ürünü, bedeni, adedi ve tarihi ile kaydedin. Stok otomatik olarak düşer."
+    - h: "Nelerin azaldığını kontrol edin"
+      p: "Az Stok veya Stokta Yok ile filtreleyin ve tam olarak nelerin yeniden sipariş edilmesi gerektiğini görün."
+  free_h2: "Başlamak ücretsiz, daha fazlası için Pro"
+  free_sub: "Uygulamanın indirilmesi ve kullanımı ücretsizdir, reklam içermez. <strong>Inventory Pro</strong>, satış geçmişinin kilidini açan isteğe bağlı bir yükseltmedir. Abonelikler Apple Kimliğiniz üzerinden yönetilir ve istediğiniz zaman iptal edilebilir."
+  free_links: 'Verilerinizin nasıl ele alındığını <a href="{privacy_url}">gizlilik politikasında</a> okuyun veya <a href="{overview_url}">uygulamanın tam genel bakışında</a> daha fazlasını öğrenin.'
+  cta_h2: "Inventory & Stock Manager’ı edinin"
+  cta_sub: "iPhone ve iPad için App Store’da."
+
+articles:
+  h1: "Makaleler"
+  sub: "Envanter ve stok yönetimi üzerine rehberler ve pratik ipuçları, ayrıca Inventory & Stock Manager haberleri."
+
+notfound:
+  h1: "Sayfa bulunamadı"
+  p: "Üzgünüz, bu sayfayı bulamadık. Bunun yerine şunlardan birini deneyin:"
+  about_link: "Inventory & Stock Manager hakkında"
+  articles_link: "Makaleler"
+  privacy_link: "Gizlilik politikası"

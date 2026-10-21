@@ -1,15 +1,16 @@
-{%- assign path = page.url | replace: 'index.html', '' -%}
+{%- include i18n.html -%}
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="{{ '/about/' | relative_url }}">
+    <a class="brand" href="{{ prefix | append: '/about/' | relative_url }}">
       <img src="{{ '/assets/img/icon-192.webp' | relative_url }}" alt="" width="32" height="32">
       <span>Inventory &amp; Stock Manager</span>
     </a>
-    <nav class="site-nav" aria-label="Main">
-      <a href="{{ '/' | relative_url }}"{% if path == '/' %} aria-current="page"{% endif %}>Privacy</a>
-      <a href="{{ '/about/' | relative_url }}"{% if path contains '/about/' %} aria-current="page"{% endif %}>About</a>
-      <a href="{{ '/articles/' | relative_url }}"{% if path contains '/articles/' %} aria-current="page"{% endif %}>Articles</a>
-      <a class="nav-cta" href="{{ site.app_store_url }}" rel="noopener">Get the app</a>
+    <nav class="site-nav" aria-label="{{ t.ui.nav_label | escape }}">
+      <a href="{{ prefix | append: '/' | relative_url }}"{% if slug == '/' %} aria-current="page"{% endif %}>{{ t.ui.nav_privacy | escape }}</a>
+      <a href="{{ prefix | append: '/about/' | relative_url }}"{% if slug contains '/about/' %} aria-current="page"{% endif %}>{{ t.ui.nav_about | escape }}</a>
+      <a href="{{ prefix | append: '/articles/' | relative_url }}"{% if slug contains '/articles/' %} aria-current="page"{% endif %}>{{ t.ui.nav_articles | escape }}</a>
+      <a class="nav-cta" href="{{ site.app_store_url }}" rel="noopener">{{ t.ui.nav_cta | escape }}</a>
     </nav>
+    {% include lang-switcher.html %}
   </div>
 </header>

@@ -1,0 +1,204 @@
+site:
+  description: "Inventory & Stock Manager est une application d’inventaire gratuite et hors ligne pour iPhone et iPad. Suivez vos produits, tailles et niveaux de stock, enregistrez vos ventes et consultez votre historique. Aucun compte requis."
+
+ui:
+  skip: "Aller au contenu"
+  nav_label: "Principale"
+  nav_privacy: "Confidentialité"
+  nav_about: "À propos"
+  nav_articles: "Articles"
+  nav_cta: "Obtenir l’app"
+  language: "Langue"
+  footer_label: "Pied de page"
+  footer_about: "À propos de l’app"
+  footer_privacy: "Politique de confidentialité"
+  footer_trademark: "Apple, iPhone, iPad et App Store sont des marques d’Apple Inc."
+  download_aria: "Télécharger Inventory & Stock Manager dans l’App Store"
+  download_small: "Télécharger dans l’"
+  breadcrumb: "Fil d’Ariane"
+  min_read: "{n} min de lecture"
+  faq: "Questions fréquentes"
+  cta_label: "Télécharger l’app"
+  icon_alt: "Icône de l’app Inventory & Stock Manager"
+  cta_title: "Essayez Inventory & Stock Manager"
+  cta_text: "Suivi de stock gratuit et hors ligne pour iPhone et iPad. Aucun compte requis."
+  more_articles: "Autres articles"
+
+pages:
+  privacy:
+    title: "Politique de confidentialité"
+    description: "Politique de confidentialité d’Inventory & Stock Manager. L’app fonctionne entièrement hors ligne, n’a pas de compte et ne stocke votre inventaire que sur votre appareil."
+  about:
+    title: "À propos de l’app"
+    seo_title: "Inventory & Stock Manager : app d’inventaire hors ligne pour iPhone"
+    description: "Inventory & Stock Manager est une application d’inventaire gratuite et hors ligne pour iPhone et iPad. Suivez produits, tailles et stocks, enregistrez vos ventes et consultez votre historique. Aucun compte requis."
+  articles:
+    title: "Articles"
+    seo_title: "Articles sur l’inventaire et la gestion des stocks | Inventory & Stock Manager"
+    description: "Guides et actualités sur Inventory & Stock Manager, une application d’inventaire gratuite et hors ligne pour iPhone et iPad, ainsi que des conseils pratiques pour suivre vos stocks."
+  notfound:
+    title: "Page introuvable"
+    description: "La page que vous cherchiez est introuvable."
+
+privacy:
+  h1: "Politique de confidentialité"
+  intro: |-
+    <p>
+      Inventory &amp; Stock Manager (« l’app ») est un outil de suivi de stock et d’inventaire hors ligne : vous ajoutez des produits,
+      des tailles et des quantités en stock, et tout ce que vous saisissez reste sur votre propre appareil. Il n’y a ni
+      compte, ni connexion, ni serveur exploité par nos soins : l’app n’a nulle part où envoyer vos données,
+      même si elle le voulait. Cette page explique quelles données sont, ou ne sont pas, collectées lorsque vous l’utilisez.
+    </p>
+  sections:
+    - h: "Informations que nous collectons"
+      body: |-
+        <p>
+          L’app elle-même ne collecte, ne transmet ni ne stocke aucune information personnelle sur un serveur :
+          elle n’a pas de backend ni de comptes utilisateur. Nous ne vous demandons ni votre nom, ni votre adresse e-mail,
+          ni votre numéro de téléphone, ni votre position, ni vos contacts, ni vos données de santé, et l’app ne contient aucun
+          SDK d’analyse ou de rapport de plantage.
+        </p>
+    - h: "Informations stockées uniquement sur votre appareil"
+      body: |-
+        <p>
+          Tout ce que vous saisissez (noms de produits, tailles, quantités en stock, enregistrements de ventes, photos de produits et
+          langue choisie pour l’app) est enregistré localement sur votre appareil à l’aide du stockage standard de l’appareil
+          (une base de données locale et un stockage de fichiers local). Rien n’est envoyé, synchronisé ni transmis ailleurs.
+          Si vous supprimez un produit ou désinstallez l’app, ces données disparaissent, car elles n’ont jamais existé
+          ailleurs.
+        </p>
+    - h: "Accès à l’appareil photo et à la photothèque"
+      body: |-
+        <p>
+          Si vous choisissez d’ajouter une photo à un produit, l’app demande l’accès à l’appareil photo ou à la photothèque
+          pour vous permettre de choisir ou de prendre cette photo. La photo est redimensionnée et enregistrée dans le stockage local
+          privé de l’app, sur votre appareil uniquement : elle n’est jamais envoyée à nous ni à un tiers.
+        </p>
+    - h: "Abonnements et achats"
+      body: |-
+        <p>
+          L’app propose une mise à niveau Pro facultative. Les achats sont traités par l’App Store d’Apple ou par Google
+          Play, et l’état de l’abonnement est géré pour nous par <strong>RevenueCat</strong>, une plateforme d’abonnement
+          tierce. RevenueCat reçoit un identifiant d’utilisateur de l’app généré aléatoirement et les données
+          d’achat et de transaction nécessaires pour valider vos droits : nous ne leur communiquons ni votre nom, ni votre e-mail,
+          ni vos informations de paiement, car nous ne collectons jamais ces informations nous-mêmes. Consultez la politique de
+          confidentialité de RevenueCat pour savoir comment ils traitent les données :
+        </p>
+        <ul>
+          <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Politique de confidentialité de RevenueCat</a></li>
+        </ul>
+    - h: "Publicité"
+      body: |-
+        <p>
+          L’app ne contient aucune publicité ni aucun SDK publicitaire, et elle ne vous suit pas à travers d’autres
+          apps ou sites web.
+        </p>
+    - h: "Confidentialité des enfants"
+      body: |-
+        <p>
+          Cette app s’adresse à un public général et ne cible pas spécifiquement les enfants de moins de
+          13 ans. Nous ne collectons pas sciemment d’informations personnelles auprès d’enfants. Si vous pensez qu’un enfant a
+          fourni des informations personnelles via cette app, veuillez nous contacter afin que nous puissions y remédier.
+        </p>
+    - h: "Sécurité des données"
+      body: |-
+        <p>
+          Comme l’app n’a pas de backend et ne transmet elle-même aucune donnée personnelle, il n’existe aucun
+          stockage distant de vos informations géré par l’app à sécuriser. Les données stockées localement sur votre appareil sont
+          protégées par la sécurité du système d’exploitation de votre appareil. Tout traitement de données lié aux
+          abonnements est effectué par Apple, Google ou RevenueCat selon leurs propres pratiques de sécurité et de confidentialité.
+        </p>
+    - h: "Vos choix"
+      body: |-
+        <p>
+          Désinstaller l’app supprime définitivement tout ce qu’elle a stocké sur votre appareil (produits, tailles,
+          stocks, historique des ventes et photos), puisque rien de tout cela n’existe ailleurs. Vous pouvez gérer ou
+          résilier votre abonnement à tout moment depuis les réglages de votre identifiant Apple ou de votre compte Google Play,
+          ou via « Gérer l’abonnement » dans l’app.
+        </p>
+    - h: "Modifications de cette politique"
+      body: |-
+        <p>
+          Si cette politique change (par exemple, si une nouvelle fonctionnalité ou un nouveau SDK est ajouté), cette page sera
+          mise à jour en conséquence. Nous vous encourageons à la consulter
+          régulièrement.
+        </p>
+    - h: "Nous contacter"
+      body: |-
+        <p>
+          Pour toute question sur cette politique de confidentialité, écrivez-nous à :
+          <br />
+          <strong><a href="mailto:iosmyapps@yahoo.com">iosmyapps@yahoo.com</a></strong>
+        </p>
+
+about:
+  hero_h1: "Tout votre inventaire. Sous contrôle."
+  hero_lead: "Inventory & Stock Manager est un outil de suivi de stock simple et hors ligne pour iPhone et iPad. Ajoutez des produits, comptez le stock par taille, enregistrez vos ventes et repérez ce qui s’épuise, sans compte ni connexion internet."
+  read_overview: "Lire la présentation complète"
+  hero_note: "Téléchargement gratuit. Fonctionne hors ligne. Vos données restent sur votre appareil."
+  hero_img_alt: "Inventory & Stock Manager sur iPhone affichant une liste de produits avec tailles et quantités en stock"
+  features_h2: "Tout ce qu’il faut pour suivre votre stock"
+  features_sub: "Conçue pour les petites boutiques, les vendeurs de marché, les revendeurs en ligne et tous ceux qui gèrent un stock et veulent une vue rapide et claire."
+  features:
+    - ico: "📦"
+      h: "Produits avec photos"
+      p: "Ajoutez un nom, une photo, un prix, un SKU et une description à chaque produit pour reconnaître vos articles en un coup d’œil."
+    - ico: "📏"
+      h: "Stock par taille"
+      p: "Donnez à chaque produit autant de tailles que nécessaire et réglez la quantité de chacune avec de simples boutons +/–."
+    - ico: "🗂️"
+      h: "Vos propres catégories"
+      p: "Créez des listes comme Couleur, Marque ou Fournisseur et associez-les aux produits pour garder un grand catalogue bien organisé."
+    - ico: "🔎"
+      h: "Recherche et filtres de stock"
+      p: "Trouvez n’importe quel produit instantanément et filtrez par Tous, En stock, Stock faible ou Rupture de stock pour voir ce qu’il faut réapprovisionner."
+    - ico: "🛒"
+      h: "Enregistrez vos ventes en quelques secondes"
+      p: "Choisissez un produit, une taille, une quantité et une date. Le stock se met à jour automatiquement dès qu’une vente est enregistrée."
+    - ico: "📈"
+      h: "Historique des ventes"
+      p: "Consultez chaque vente enregistrée avec produit, taille, quantité et date, et recherchez dans les ventes passées."
+    - ico: "🌍"
+      h: "15 langues"
+      p: "Anglais, chinois, japonais, espagnol, français, allemand, coréen, portugais (Brésil), italien, russe, roumain, arabe, turc, néerlandais et indonésien."
+    - ico: "🔒"
+      h: "Privée et hors ligne"
+      p: "Pas de compte, pas de connexion et pas de serveur. Tout ce que vous saisissez est stocké localement sur votre appareil."
+  shots_h2: "Voyez-la en action"
+  shots_sub: "Une interface épurée, pensée pour une utilisation rapide à une main sur iPhone, et qui s’adapte à l’iPad."
+  shots:
+    - alt: "Liste d’inventaire avec photos de produits, tailles et niveaux de stock"
+      cap: "Tout votre inventaire"
+    - alt: "Écran Ajouter un produit avec nom, prix, SKU, description, catégories et tailles"
+      cap: "Ajoutez et organisez vos produits"
+    - alt: "Écran Enregistrer une vente avec sélecteur de produit et calendrier"
+      cap: "Enregistrez une vente"
+    - alt: "Liste de l’historique des ventes avec produits, tailles et dates"
+      cap: "Historique des ventes"
+    - alt: "Écran des réglages avec sélecteur de langue"
+      cap: "Changez de langue instantanément"
+  how_h2: "Comment ça marche"
+  how_sub: "D’une app vide à un catalogue suivi en quelques minutes."
+  steps:
+    - h: "Ajoutez vos produits"
+      p: "Prenez ou choisissez une photo, saisissez un nom, un prix et un SKU, puis ajoutez les tailles avec leurs quantités de départ."
+    - h: "Vendez et enregistrez"
+      p: "Quand quelque chose se vend, enregistrez-le avec le produit, la taille, la quantité et la date. Le stock diminue automatiquement."
+    - h: "Vérifiez ce qui s’épuise"
+      p: "Filtrez par Stock faible ou Rupture de stock et voyez précisément ce qu’il faut recommander."
+  free_h2: "Gratuite pour commencer, Pro pour aller plus loin"
+  free_sub: "L’app est gratuite à télécharger et à utiliser, sans publicité. <strong>Inventory Pro</strong> est une mise à niveau facultative qui débloque l’historique des ventes. Les abonnements sont gérés via votre identifiant Apple et peuvent être résiliés à tout moment."
+  free_links: 'Découvrez comment vos données sont traitées dans la <a href="{privacy_url}">politique de confidentialité</a>, ou en savoir plus dans la <a href="{overview_url}">présentation complète de l’app</a>.'
+  cta_h2: "Obtenez Inventory & Stock Manager"
+  cta_sub: "Disponible dans l’App Store pour iPhone et iPad."
+
+articles:
+  h1: "Articles"
+  sub: "Guides et conseils pratiques sur l’inventaire et la gestion des stocks, et actualités d’Inventory & Stock Manager."
+
+notfound:
+  h1: "Page introuvable"
+  p: "Désolé, nous n’avons pas trouvé cette page. Essayez plutôt l’un de ces liens :"
+  about_link: "À propos d’Inventory & Stock Manager"
+  articles_link: "Articles"
+  privacy_link: "Politique de confidentialité"

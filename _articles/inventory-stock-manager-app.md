@@ -3,6 +3,7 @@ title: "Inventory & Stock Manager: a simple offline stock tracker for iPhone and
 description: "An overview of Inventory & Stock Manager, a free offline inventory app for iPhone and iPad: what it does, who it is for, how to track stock by size, record sales and keep your data private."
 date: 2026-10-21 00:00:00 +0000
 reading_time: 5
+ref: inventory-stock-manager-app
 faq:
   - q: "Is Inventory & Stock Manager free?"
     a: "Yes. The app is free to download and use, with no ads. An optional Inventory Pro upgrade unlocks the sales history."

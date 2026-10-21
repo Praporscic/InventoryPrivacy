@@ -1,0 +1,204 @@
+site:
+  description: "Inventory & Stock Manager adalah aplikasi inventaris gratis dan offline untuk iPhone dan iPad. Lacak produk, ukuran, dan tingkat stok, catat penjualan, dan lihat riwayat penjualan Anda. Tanpa akun."
+
+ui:
+  skip: "Langsung ke konten"
+  nav_label: "Utama"
+  nav_privacy: "Privasi"
+  nav_about: "Tentang"
+  nav_articles: "Artikel"
+  nav_cta: "Dapatkan aplikasi"
+  language: "Bahasa"
+  footer_label: "Kaki halaman"
+  footer_about: "Tentang aplikasi"
+  footer_privacy: "Kebijakan privasi"
+  footer_trademark: "Apple, iPhone, iPad, dan App Store adalah merek dagang Apple Inc."
+  download_aria: "Unduh Inventory & Stock Manager di App Store"
+  download_small: "Unduh di"
+  breadcrumb: "Navigasi jejak"
+  min_read: "{n} mnt baca"
+  faq: "Pertanyaan yang sering diajukan"
+  cta_label: "Unduh aplikasi"
+  icon_alt: "Ikon aplikasi Inventory & Stock Manager"
+  cta_title: "Coba Inventory & Stock Manager"
+  cta_text: "Pelacakan stok gratis dan offline untuk iPhone dan iPad. Tanpa akun."
+  more_articles: "Artikel lainnya"
+
+pages:
+  privacy:
+    title: "Kebijakan Privasi"
+    description: "Kebijakan privasi Inventory & Stock Manager. Aplikasi berfungsi sepenuhnya offline, tanpa akun, dan menyimpan inventaris Anda hanya di perangkat Anda."
+  about:
+    title: "Tentang aplikasi"
+    seo_title: "Inventory & Stock Manager: Aplikasi Inventaris Offline untuk iPhone"
+    description: "Inventory & Stock Manager adalah aplikasi inventaris gratis dan offline untuk iPhone dan iPad. Lacak produk, ukuran, dan stok, catat penjualan, dan lihat riwayat penjualan Anda. Tanpa akun."
+  articles:
+    title: "Artikel"
+    seo_title: "Artikel tentang inventaris dan manajemen stok | Inventory & Stock Manager"
+    description: "Panduan dan kabar tentang Inventory & Stock Manager, aplikasi inventaris gratis dan offline untuk iPhone dan iPad, serta tips praktis untuk melacak stok."
+  notfound:
+    title: "Halaman tidak ditemukan"
+    description: "Halaman yang Anda cari tidak dapat ditemukan."
+
+privacy:
+  h1: "Kebijakan Privasi"
+  intro: |-
+    <p>
+      Inventory &amp; Stock Manager (“aplikasi”) adalah pelacak stok/inventaris offline: Anda menambahkan produk,
+      ukuran, dan jumlah stok, dan semua yang Anda masukkan tetap berada di perangkat Anda sendiri. Tidak ada
+      akun, tidak ada proses masuk, dan tidak ada server yang kami operasikan — aplikasi tidak punya tempat untuk
+      mengirim data Anda, bahkan jika ia mau. Halaman ini menjelaskan data apa yang dikumpulkan, dan tidak dikumpulkan, saat Anda menggunakannya.
+    </p>
+  sections:
+    - h: "Informasi yang Kami Kumpulkan"
+      body: |-
+        <p>
+          Aplikasi itu sendiri tidak mengumpulkan, mengirim, atau menyimpan informasi pribadi apa pun di server mana pun —
+          aplikasi tidak memiliki backend maupun akun pengguna. Kami tidak meminta nama, alamat email, nomor telepon,
+          lokasi, kontak, atau data kesehatan Anda, dan aplikasi tidak memuat SDK analitik atau pelaporan kerusakan
+          dalam bentuk apa pun.
+        </p>
+    - h: "Informasi yang Hanya Disimpan di Perangkat Anda"
+      body: |-
+        <p>
+          Semua yang Anda masukkan — nama produk, ukuran, jumlah stok, catatan penjualan, foto produk, dan
+          bahasa aplikasi yang Anda pilih — disimpan secara lokal di perangkat Anda menggunakan penyimpanan standar perangkat
+          (basis data lokal dan penyimpanan berkas lokal). Tidak ada yang diunggah, disinkronkan, atau dikirim ke mana pun.
+          Jika Anda menghapus produk atau menghapus instalasi aplikasi, data tersebut hilang, karena tidak pernah ada di tempat
+          lain.
+        </p>
+    - h: "Akses Kamera dan Pustaka Foto"
+      body: |-
+        <p>
+          Jika Anda memilih untuk melampirkan foto pada produk, aplikasi meminta akses ke kamera atau pustaka foto
+          agar Anda dapat memilih atau mengambil foto tersebut. Foto diubah ukurannya dan disimpan di penyimpanan lokal
+          pribadi aplikasi hanya di perangkat Anda — foto tidak pernah diunggah ke kami atau pihak ketiga mana pun.
+        </p>
+    - h: "Langganan dan Pembelian"
+      body: |-
+        <p>
+          Aplikasi menawarkan peningkatan Pro yang bersifat opsional. Pembelian diproses oleh App Store Apple atau Google
+          Play, dan status langganan dikelola untuk kami oleh <strong>RevenueCat</strong>, platform langganan
+          pihak ketiga. RevenueCat menerima pengenal pengguna aplikasi yang dibuat secara acak serta data
+          pembelian/transaksi yang diperlukan untuk memvalidasi hak akses Anda — kami tidak membagikan nama, email,
+          atau detail pembayaran Anda kepada mereka, karena kami sendiri tidak pernah mengumpulkan informasi tersebut. Lihat
+          kebijakan privasi RevenueCat sendiri untuk rincian penanganan data mereka:
+        </p>
+        <ul>
+          <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Kebijakan Privasi RevenueCat</a></li>
+        </ul>
+    - h: "Iklan"
+      body: |-
+        <p>
+          Aplikasi tidak memuat iklan maupun SDK iklan, dan tidak melacak Anda di aplikasi atau
+          situs web lain.
+        </p>
+    - h: "Privasi Anak"
+      body: |-
+        <p>
+          Aplikasi ini ditujukan untuk khalayak umum dan tidak secara khusus ditujukan bagi anak di bawah usia
+          13 tahun. Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak. Jika Anda yakin seorang anak telah
+          memberikan informasi pribadi melalui aplikasi ini, silakan hubungi kami agar dapat kami tangani.
+        </p>
+    - h: "Keamanan Data"
+      body: |-
+        <p>
+          Karena aplikasi tidak memiliki backend dan tidak mengirimkan data pribadi sendiri, tidak ada
+          penyimpanan jarak jauh atas informasi Anda yang dikelola aplikasi dan perlu diamankan. Data yang disimpan secara lokal di perangkat Anda
+          dilindungi oleh keamanan sistem operasi perangkat Anda sendiri. Setiap penanganan data yang terkait dengan
+          langganan dilakukan oleh Apple, Google, atau RevenueCat berdasarkan praktik keamanan dan privasi mereka masing-masing.
+        </p>
+    - h: "Pilihan Anda"
+      body: |-
+        <p>
+          Menghapus instalasi aplikasi akan menghapus secara permanen semua yang disimpannya di perangkat Anda (produk, ukuran,
+          stok, riwayat penjualan, dan foto), karena tidak ada satu pun yang ada di tempat lain. Anda dapat mengelola atau
+          membatalkan langganan kapan saja melalui pengaturan ID Apple atau akun Google Play Anda,
+          atau melalui “Kelola Langganan” di dalam aplikasi.
+        </p>
+    - h: "Perubahan pada Kebijakan Ini"
+      body: |-
+        <p>
+          Jika kebijakan ini berubah — misalnya, jika fitur atau SDK baru ditambahkan — halaman ini akan
+          diperbarui sesuai kebutuhan. Kami menganjurkan Anda untuk meninjau
+          halaman ini secara berkala.
+        </p>
+    - h: "Hubungi Kami"
+      body: |-
+        <p>
+          Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, hubungi kami di:
+          <br />
+          <strong><a href="mailto:iosmyapps@yahoo.com">iosmyapps@yahoo.com</a></strong>
+        </p>
+
+about:
+  hero_h1: "Seluruh inventaris Anda. Terkendali."
+  hero_lead: "Inventory & Stock Manager adalah pelacak stok offline yang sederhana untuk iPhone dan iPad. Tambahkan produk, hitung stok per ukuran, catat penjualan, dan lihat apa yang hampir habis — tanpa akun dan tanpa koneksi internet."
+  read_overview: "Baca ulasan lengkap"
+  hero_note: "Gratis diunduh. Bekerja offline. Data Anda tetap di perangkat Anda."
+  hero_img_alt: "Inventory & Stock Manager di iPhone menampilkan daftar produk dengan ukuran dan jumlah stok"
+  features_h2: "Semua yang Anda perlukan untuk melacak stok"
+  features_sub: "Dibuat untuk toko kecil, pedagang pasar, penjual ulang online, dan siapa saja yang menyimpan stok dan ingin melihatnya dengan cepat dan jelas."
+  features:
+    - ico: "📦"
+      h: "Produk dengan foto"
+      p: "Tambahkan nama, foto, harga, SKU, dan deskripsi untuk setiap produk, sehingga Anda mengenali barang dalam sekali lihat."
+    - ico: "📏"
+      h: "Stok per ukuran"
+      p: "Beri setiap produk sebanyak ukuran yang dibutuhkan dan atur jumlah masing-masing dengan tombol +/– sederhana."
+    - ico: "🗂️"
+      h: "Kategori buatan Anda"
+      p: "Buat daftar seperti Warna, Merek, atau Pemasok dan kaitkan dengan produk agar katalog besar tetap tertata."
+    - ico: "🔎"
+      h: "Pencarian dan filter stok"
+      p: "Temukan produk apa pun seketika dan filter berdasarkan Semua, Tersedia, Stok Menipis, atau Habis untuk melihat apa yang perlu diisi ulang."
+    - ico: "🛒"
+      h: "Catat penjualan dalam hitungan detik"
+      p: "Pilih produk, ukuran, jumlah, dan tanggal. Stok diperbarui otomatis saat penjualan disimpan."
+    - ico: "📈"
+      h: "Riwayat penjualan"
+      p: "Tinjau setiap penjualan yang dicatat beserta produk, ukuran, jumlah, dan tanggal, lalu cari di antara penjualan sebelumnya."
+    - ico: "🌍"
+      h: "15 bahasa"
+      p: "Inggris, Mandarin, Jepang, Spanyol, Prancis, Jerman, Korea, Portugis (Brasil), Italia, Rusia, Rumania, Arab, Turki, Belanda, dan Indonesia."
+    - ico: "🔒"
+      h: "Pribadi dan offline"
+      p: "Tanpa akun, tanpa proses masuk, dan tanpa server. Semua yang Anda masukkan disimpan secara lokal di perangkat Anda."
+  shots_h2: "Lihat cara kerjanya"
+  shots_sub: "Antarmuka bersih yang dirancang untuk penggunaan cepat dengan satu tangan di iPhone, dan menyesuaikan di iPad."
+  shots:
+    - alt: "Daftar inventaris dengan foto produk, ukuran, dan tingkat stok"
+      cap: "Seluruh inventaris Anda"
+    - alt: "Layar Tambah Produk dengan nama, harga, SKU, deskripsi, kategori, dan ukuran"
+      cap: "Tambah dan atur produk"
+    - alt: "Layar Catat Penjualan dengan pemilih produk dan kalender tanggal"
+      cap: "Catat penjualan"
+    - alt: "Daftar Riwayat Penjualan yang menampilkan produk, ukuran, dan tanggal"
+      cap: "Riwayat penjualan"
+    - alt: "Layar Pengaturan dengan pemilih bahasa"
+      cap: "Ganti bahasa seketika"
+  how_h2: "Cara kerjanya"
+  how_sub: "Dari aplikasi kosong menjadi katalog yang terlacak dalam beberapa menit."
+  steps:
+    - h: "Tambahkan produk Anda"
+      p: "Ambil atau pilih foto, masukkan nama, harga, dan SKU, lalu tambahkan ukuran beserta jumlah awalnya."
+    - h: "Jual dan catat"
+      p: "Saat sesuatu terjual, catat dengan produk, ukuran, jumlah, dan tanggal. Stok berkurang otomatis."
+    - h: "Cek yang hampir habis"
+      p: "Filter berdasarkan Stok Menipis atau Habis dan lihat dengan tepat apa yang perlu dipesan ulang."
+  free_h2: "Gratis untuk memulai, Pro jika Anda ingin lebih"
+  free_sub: "Aplikasi ini gratis diunduh dan digunakan, tanpa iklan. <strong>Inventory Pro</strong> adalah peningkatan opsional yang membuka riwayat penjualan. Langganan dikelola melalui ID Apple Anda dan dapat dibatalkan kapan saja."
+  free_links: 'Baca cara data Anda ditangani di <a href="{privacy_url}">kebijakan privasi</a>, atau pelajari lebih lanjut di <a href="{overview_url}">ulasan lengkap aplikasi</a>.'
+  cta_h2: "Dapatkan Inventory & Stock Manager"
+  cta_sub: "Tersedia di App Store untuk iPhone dan iPad."
+
+articles:
+  h1: "Artikel"
+  sub: "Panduan dan tips praktis tentang inventaris dan manajemen stok, serta kabar tentang Inventory & Stock Manager."
+
+notfound:
+  h1: "Halaman tidak ditemukan"
+  p: "Maaf, kami tidak dapat menemukan halaman tersebut. Coba salah satu berikut ini:"
+  about_link: "Tentang Inventory & Stock Manager"
+  articles_link: "Artikel"
+  privacy_link: "Kebijakan privasi"

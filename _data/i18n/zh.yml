@@ -1,0 +1,197 @@
+site:
+  description: "Inventory & Stock Manager 是一款适用于 iPhone 和 iPad 的免费离线库存应用。管理商品、尺码和库存数量，记录销售并查看销售历史。无需账号。"
+
+ui:
+  skip: "跳到正文"
+  nav_label: "主导航"
+  nav_privacy: "隐私"
+  nav_about: "关于"
+  nav_articles: "文章"
+  nav_cta: "获取应用"
+  language: "语言"
+  footer_label: "页脚"
+  footer_about: "关于应用"
+  footer_privacy: "隐私政策"
+  footer_trademark: "Apple、iPhone、iPad 和 App Store 是 Apple Inc. 的商标。"
+  download_aria: "在 App Store 下载 Inventory & Stock Manager"
+  download_small: "下载自"
+  breadcrumb: "面包屑导航"
+  min_read: "阅读需 {n} 分钟"
+  faq: "常见问题"
+  cta_label: "下载应用"
+  icon_alt: "Inventory & Stock Manager 应用图标"
+  cta_title: "试试 Inventory & Stock Manager"
+  cta_text: "适用于 iPhone 和 iPad 的免费离线库存管理。无需账号。"
+  more_articles: "更多文章"
+
+pages:
+  privacy:
+    title: "隐私政策"
+    description: "Inventory & Stock Manager 隐私政策。应用完全离线运行，无需账号，您的库存数据只保存在您的设备上。"
+  about:
+    title: "关于应用"
+    seo_title: "Inventory & Stock Manager：适用于 iPhone 的离线库存应用"
+    description: "Inventory & Stock Manager 是一款适用于 iPhone 和 iPad 的免费离线库存应用。管理商品、尺码和库存，记录销售并查看销售历史。无需账号。"
+  articles:
+    title: "文章"
+    seo_title: "库存与存货管理文章 | Inventory & Stock Manager"
+    description: "有关 Inventory & Stock Manager（适用于 iPhone 和 iPad 的免费离线库存应用）的指南和资讯，以及实用的库存管理技巧。"
+  notfound:
+    title: "页面未找到"
+    description: "找不到您要访问的页面。"
+
+privacy:
+  h1: "隐私政策"
+  intro: |-
+    <p>
+      Inventory &amp; Stock Manager（“本应用”）是一款离线库存/存货管理工具：您添加商品、
+      尺码和库存数量，您输入的所有内容都只保存在您自己的设备上。本应用没有
+      账号、没有登录，也没有由我们运营的服务器——即使想发送，应用也没有任何地方可以发送您的数据。
+      本页面说明您在使用本应用时，哪些数据会被收集，哪些不会。
+    </p>
+  sections:
+    - h: "我们收集的信息"
+      body: |-
+        <p>
+          本应用本身不会在任何服务器上收集、传输或存储任何个人信息——
+          它没有后端，也没有用户账号。我们不会向您索取姓名、电子邮件地址、电话号码、
+          位置、通讯录或健康数据，并且应用不包含任何分析或崩溃报告 SDK。
+        </p>
+    - h: "仅存储在您设备上的信息"
+      body: |-
+        <p>
+          您输入的所有内容——商品名称、尺码、库存数量、销售记录、商品照片以及
+          您所选的应用语言——都使用设备的标准本地存储（本地数据库和本地文件存储）
+          保存在您的设备上。这些内容不会被上传、同步或发送到任何地方。
+          如果您删除某个商品或卸载应用，这些数据就会消失，因为它们从未存在于其他任何地方。
+        </p>
+    - h: "相机和照片库访问权限"
+      body: |-
+        <p>
+          如果您选择为商品添加照片，应用会请求访问相机或照片库，
+          以便您选择或拍摄照片。照片会被缩小并仅保存在您设备上应用的私有本地存储中——
+          绝不会上传给我们或任何第三方。
+        </p>
+    - h: "订阅与购买"
+      body: |-
+        <p>
+          本应用提供可选的 Pro 升级。购买由 Apple 的 App Store 或 Google
+          Play 处理，订阅状态由第三方订阅平台 <strong>RevenueCat</strong> 代我们管理。
+          RevenueCat 会收到一个随机生成的应用用户标识符，以及验证您的使用权限所需的
+          购买/交易数据——我们不会与其共享您的姓名、电子邮件或付款信息，因为我们自己从不收集这些信息。
+          有关其数据处理的详情，请参阅 RevenueCat 自己的隐私政策：
+        </p>
+        <ul>
+          <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat 隐私政策</a></li>
+        </ul>
+    - h: "广告"
+      body: |-
+        <p>
+          本应用不包含任何广告或广告 SDK，也不会在其他应用或网站上跟踪您。
+        </p>
+    - h: "儿童隐私"
+      body: |-
+        <p>
+          本应用面向一般用户，并非专门面向 13 岁以下儿童。
+          我们不会故意收集儿童的个人信息。如果您认为有儿童通过本应用提供了个人信息，
+          请联系我们，以便我们处理。
+        </p>
+    - h: "数据安全"
+      body: |-
+        <p>
+          由于本应用没有后端，也不会自行传输个人数据，因此不存在需要保护的、
+          由应用管理的远程信息存储。保存在您设备本地的数据受设备操作系统自身的安全机制保护。
+          与订阅相关的任何数据处理均由 Apple、Google 或 RevenueCat 按其各自的安全和隐私规范执行。
+        </p>
+    - h: "您的选择"
+      body: |-
+        <p>
+          卸载应用会永久删除它在您设备上存储的全部内容（商品、尺码、
+          库存、销售历史和照片），因为这些内容不存在于其他任何地方。您可以随时在 Apple ID 或
+          Google Play 账号设置中管理或取消订阅，也可以通过应用内的“管理订阅”操作。
+        </p>
+    - h: "本政策的变更"
+      body: |-
+        <p>
+          如果本政策发生变化——例如新增了功能或 SDK——本页面将相应更新。
+          我们建议您定期查看本页面。
+        </p>
+    - h: "联系我们"
+      body: |-
+        <p>
+          如果您对本隐私政策有任何疑问，请通过以下方式联系我们：
+          <br />
+          <strong><a href="mailto:iosmyapps@yahoo.com">iosmyapps@yahoo.com</a></strong>
+        </p>
+
+about:
+  hero_h1: "全部库存，尽在掌控。"
+  hero_lead: "Inventory & Stock Manager 是一款适用于 iPhone 和 iPad 的简洁离线库存工具。添加商品、按尺码统计库存、记录销售，并随时了解哪些商品快没货了——无需账号，也无需联网。"
+  read_overview: "阅读完整介绍"
+  hero_note: "免费下载。离线可用。您的数据保留在您的设备上。"
+  hero_img_alt: "iPhone 上的 Inventory & Stock Manager，显示带有尺码和库存数量的商品列表"
+  features_h2: "管理库存所需的一切"
+  features_sub: "专为小店、摆摊卖家、网店转售者，以及所有需要备货并希望快速清晰掌握库存的人设计。"
+  features:
+    - ico: "📦"
+      h: "带照片的商品"
+      p: "为每件商品添加名称、照片、价格、SKU 和描述，一眼就能认出商品。"
+    - ico: "📏"
+      h: "按尺码管理库存"
+      p: "为每件商品添加所需的任意数量尺码，并用简单的 +/– 按钮设置每个尺码的数量。"
+    - ico: "🗂️"
+      h: "自定义分类"
+      p: "创建“颜色”“品牌”“供应商”等列表并关联到商品，让庞大的商品目录井然有序。"
+    - ico: "🔎"
+      h: "搜索与库存筛选"
+      p: "即时找到任意商品，并按“全部”“有货”“库存偏低”“缺货”筛选，看清哪些需要补货。"
+    - ico: "🛒"
+      h: "几秒钟记录销售"
+      p: "选择商品、尺码、数量和日期。保存销售后库存会自动更新。"
+    - ico: "📈"
+      h: "销售历史"
+      p: "查看每一笔销售记录的商品、尺码、数量和日期，并可搜索过往销售。"
+    - ico: "🌍"
+      h: "15 种语言"
+      p: "英语、中文、日语、西班牙语、法语、德语、韩语、葡萄牙语（巴西）、意大利语、俄语、罗马尼亚语、阿拉伯语、土耳其语、荷兰语和印度尼西亚语。"
+    - ico: "🔒"
+      h: "私密且离线"
+      p: "无需账号，无需登录，没有服务器。您输入的所有内容都存储在您的设备本地。"
+  shots_h2: "实际效果"
+  shots_sub: "简洁的界面，专为 iPhone 上快速单手操作而设计，同时适配 iPad。"
+  shots:
+    - alt: "带有商品照片、尺码和库存数量的库存列表"
+      cap: "全部库存一目了然"
+    - alt: "“添加商品”界面，含名称、价格、SKU、描述、分类和尺码"
+      cap: "添加并整理商品"
+    - alt: "“记录销售”界面，含商品选择器和日期日历"
+      cap: "记录一笔销售"
+    - alt: "显示商品、尺码和日期的销售历史列表"
+      cap: "销售历史"
+    - alt: "带有语言选择器的设置界面"
+      cap: "即时切换语言"
+  how_h2: "使用方法"
+  how_sub: "几分钟内，从空白应用到完整的商品目录。"
+  steps:
+    - h: "添加商品"
+      p: "拍摄或选择照片，输入名称、价格和 SKU，然后添加各个尺码及其初始数量。"
+    - h: "销售并记录"
+      p: "商品售出后，记录商品、尺码、数量和日期。库存会自动减少。"
+    - h: "查看哪些快没货了"
+      p: "按“库存偏低”或“缺货”筛选，清楚看到哪些需要重新订货。"
+  free_h2: "免费开始，需要更多时升级 Pro"
+  free_sub: "应用可免费下载和使用，没有广告。<strong>Inventory Pro</strong> 是可选的升级，可解锁销售历史。订阅通过您的 Apple ID 管理，可随时取消。"
+  free_links: '请在<a href="{privacy_url}">隐私政策</a>中了解我们如何处理您的数据，或在<a href="{overview_url}">完整的应用介绍</a>中了解更多。'
+  cta_h2: "获取 Inventory & Stock Manager"
+  cta_sub: "已在 App Store 上架，适用于 iPhone 和 iPad。"
+
+articles:
+  h1: "文章"
+  sub: "关于库存与存货管理的指南和实用技巧，以及 Inventory & Stock Manager 的最新资讯。"
+
+notfound:
+  h1: "页面未找到"
+  p: "抱歉，我们找不到该页面。请试试下面这些链接："
+  about_link: "关于 Inventory & Stock Manager"
+  articles_link: "文章"
+  privacy_link: "隐私政策"

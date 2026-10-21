@@ -16,6 +16,13 @@ sitemap: false
 - [Privacy policy]({{ '/' | absolute_url }}): how data is handled
 
 ## Articles
-{% for article in site.articles %}
+{% for article in site.articles %}{% if article.lang == 'en' %}
 - [{{ article.title }}]({{ article.url | absolute_url }}): {{ article.description }}
-{%- endfor %}
+{%- endif %}{% endfor %}
+
+## Translations
+
+The whole site (about page, privacy policy and articles) is available in these languages:
+{% for l in site.data.languages %}{% unless l.code == 'en' %}
+- [{{ l.name }}]({{ l.prefix | append: '/about/' | absolute_url }}) ({{ l.html_lang }})
+{%- endunless %}{% endfor %}
