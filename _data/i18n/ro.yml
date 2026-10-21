@@ -16,7 +16,7 @@ ui:
   download_aria: "Descarcă Inventory & Stock Manager din App Store"
   download_small: "Descarcă din"
   breadcrumb: "Navigare ierarhică"
-  min_read: "{n} min de citit"
+  min_read: "[n] min de citit"
   faq: "Întrebări frecvente"
   cta_label: "Descarcă aplicația"
   icon_alt: "Pictograma aplicației Inventory & Stock Manager"
@@ -187,7 +187,7 @@ about:
       p: "Filtrează după Stoc redus sau Stoc epuizat și vezi exact ce trebuie recomandat."
   free_h2: "Gratuită pentru început, Pro dacă vrei mai mult"
   free_sub: "Aplicația este gratuită de descărcat și de folosit, fără reclame. <strong>Inventory Pro</strong> este o actualizare opțională care deblochează istoricul vânzărilor. Abonamentele sunt gestionate prin ID-ul tău Apple și pot fi anulate oricând."
-  free_links: 'Citește cum sunt tratate datele tale în <a href="{privacy_url}">politica de confidențialitate</a> sau află mai multe în <a href="{overview_url}">prezentarea completă a aplicației</a>.'
+  free_links: 'Citește cum sunt tratate datele tale în <a href="[privacy_url]">politica de confidențialitate</a> sau află mai multe în <a href="[overview_url]">prezentarea completă a aplicației</a>.'
   cta_h2: "Descarcă Inventory & Stock Manager"
   cta_sub: "Disponibilă în App Store pentru iPhone și iPad."
 

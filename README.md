@@ -19,7 +19,7 @@ A globe button in the header switches language and keeps you on the equivalent p
   privacy policy, the About page, and the article-index and 404 text. `en.yml` is the master; every other file
   must have exactly the same keys. Fields holding HTML (`intro`, section `body`, `free_sub`, `free_links`) are
   output as-is, so write `&amp;` there; all other fields are plain text and escaped by the templates.
-  Keep the placeholders `{n}`, `{privacy_url}` and `{overview_url}` unchanged.
+  Keep the placeholders `[n]`, `[privacy_url]` and `[overview_url]` unchanged.
 - The pages themselves are thin stubs (for example `de/about/index.html`) that pick a layout
   (`_layouts/privacy.html`, `about.html`, `articles.html`) and a `lang`; the layouts render the text from the data files.
 - Each article exists once per language as `_articles/<code>/<slug>.md` (English stays in `_articles/<slug>.md`).

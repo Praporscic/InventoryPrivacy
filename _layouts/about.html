@@ -64,7 +64,7 @@ layout: default
   <div class="wrap">
     <h2>{{ a.free_h2 | escape }}</h2>
     <p class="sub">{{ a.free_sub }}</p>
-    <p>{{ a.free_links | replace: '{privacy_url}', privacy_url | replace: '{overview_url}', overview_url }}</p>
+    <p>{{ a.free_links | replace: '[privacy_url]', privacy_url | replace: '[overview_url]', overview_url }}</p>
   </div>
 </section>
 

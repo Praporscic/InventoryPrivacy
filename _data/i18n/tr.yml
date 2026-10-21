@@ -16,7 +16,7 @@ ui:
   download_aria: "Inventory & Stock Manager uygulamasını App Store’dan indirin"
   download_small: "İndirin:"
   breadcrumb: "Sayfa yolu"
-  min_read: "{n} dk okuma"
+  min_read: "[n] dk okuma"
   faq: "Sık sorulan sorular"
   cta_label: "Uygulamayı indirin"
   icon_alt: "Inventory & Stock Manager uygulama simgesi"
@@ -188,7 +188,7 @@ about:
       p: "Az Stok veya Stokta Yok ile filtreleyin ve tam olarak nelerin yeniden sipariş edilmesi gerektiğini görün."
   free_h2: "Başlamak ücretsiz, daha fazlası için Pro"
   free_sub: "Uygulamanın indirilmesi ve kullanımı ücretsizdir, reklam içermez. <strong>Inventory Pro</strong>, satış geçmişinin kilidini açan isteğe bağlı bir yükseltmedir. Abonelikler Apple Kimliğiniz üzerinden yönetilir ve istediğiniz zaman iptal edilebilir."
-  free_links: 'Verilerinizin nasıl ele alındığını <a href="{privacy_url}">gizlilik politikasında</a> okuyun veya <a href="{overview_url}">uygulamanın tam genel bakışında</a> daha fazlasını öğrenin.'
+  free_links: 'Verilerinizin nasıl ele alındığını <a href="[privacy_url]">gizlilik politikasında</a> okuyun veya <a href="[overview_url]">uygulamanın tam genel bakışında</a> daha fazlasını öğrenin.'
   cta_h2: "Inventory & Stock Manager’ı edinin"
   cta_sub: "iPhone ve iPad için App Store’da."
 

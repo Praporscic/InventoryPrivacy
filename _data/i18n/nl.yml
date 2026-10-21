@@ -16,7 +16,7 @@ ui:
   download_aria: "Download Inventory & Stock Manager in de App Store"
   download_small: "Download in de"
   breadcrumb: "Kruimelpad"
-  min_read: "{n} min leestijd"
+  min_read: "[n] min leestijd"
   faq: "Veelgestelde vragen"
   cta_label: "Download de app"
   icon_alt: "App-icoon van Inventory & Stock Manager"
@@ -187,7 +187,7 @@ about:
       p: "Filter op Bijna op of Uitverkocht en zie precies wat er opnieuw besteld moet worden."
   free_h2: "Gratis om mee te beginnen, Pro als je meer wilt"
   free_sub: "De app is gratis te downloaden en te gebruiken, zonder advertenties. <strong>Inventory Pro</strong> is een optionele upgrade die de verkoopgeschiedenis ontgrendelt. Abonnementen worden beheerd via je Apple ID en kunnen op elk moment worden opgezegd."
-  free_links: 'Lees hoe er met je gegevens wordt omgegaan in het <a href="{privacy_url}">privacybeleid</a>, of ontdek meer in het <a href="{overview_url}">volledige app-overzicht</a>.'
+  free_links: 'Lees hoe er met je gegevens wordt omgegaan in het <a href="[privacy_url]">privacybeleid</a>, of ontdek meer in het <a href="[overview_url]">volledige app-overzicht</a>.'
   cta_h2: "Download Inventory & Stock Manager"
   cta_sub: "Beschikbaar in de App Store voor iPhone en iPad."
 

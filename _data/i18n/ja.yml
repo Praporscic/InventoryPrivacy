@@ -16,7 +16,7 @@ ui:
   download_aria: "App Store で Inventory & Stock Manager をダウンロード"
   download_small: "ダウンロードはこちら"
   breadcrumb: "パンくずリスト"
-  min_read: "読了目安 {n} 分"
+  min_read: "読了目安 [n] 分"
   faq: "よくある質問"
   cta_label: "アプリをダウンロード"
   icon_alt: "Inventory & Stock Manager のアプリアイコン"
@@ -185,7 +185,7 @@ about:
       p: "「残りわずか」や「在庫切れ」で絞り込めば、発注が必要な商品がすぐ分かります。"
   free_h2: "無料で始めて、必要なら Pro へ"
   free_sub: "アプリは広告なしで無料でダウンロード・利用できます。<strong>Inventory Pro</strong> は、販売履歴が使えるようになる任意のアップグレードです。サブスクリプションは Apple ID で管理され、いつでも解約できます。"
-  free_links: 'データの取り扱いについては<a href="{privacy_url}">プライバシーポリシー</a>を、詳しくは<a href="{overview_url}">アプリの詳しい紹介</a>をご覧ください。'
+  free_links: 'データの取り扱いについては<a href="[privacy_url]">プライバシーポリシー</a>を、詳しくは<a href="[overview_url]">アプリの詳しい紹介</a>をご覧ください。'
   cta_h2: "Inventory & Stock Manager を入手"
   cta_sub: "iPhone と iPad 向けに App Store で配信中。"
 

@@ -11,7 +11,7 @@ layout: default
     <h1 itemprop="headline">{{ page.title | escape }}</h1>
     <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
     {%- if page.reading_time %}
-    <p class="meta">{{ t.ui.min_read | replace: '{n}', page.reading_time | escape }}</p>
+    <p class="meta">{{ t.ui.min_read | replace: '[n]', page.reading_time | escape }}</p>
     {%- endif %}
   </header>
 

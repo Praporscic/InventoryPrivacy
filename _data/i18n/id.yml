@@ -16,7 +16,7 @@ ui:
   download_aria: "Unduh Inventory & Stock Manager di App Store"
   download_small: "Unduh di"
   breadcrumb: "Navigasi jejak"
-  min_read: "{n} mnt baca"
+  min_read: "[n] mnt baca"
   faq: "Pertanyaan yang sering diajukan"
   cta_label: "Unduh aplikasi"
   icon_alt: "Ikon aplikasi Inventory & Stock Manager"
@@ -188,7 +188,7 @@ about:
       p: "Filter berdasarkan Stok Menipis atau Habis dan lihat dengan tepat apa yang perlu dipesan ulang."
   free_h2: "Gratis untuk memulai, Pro jika Anda ingin lebih"
   free_sub: "Aplikasi ini gratis diunduh dan digunakan, tanpa iklan. <strong>Inventory Pro</strong> adalah peningkatan opsional yang membuka riwayat penjualan. Langganan dikelola melalui ID Apple Anda dan dapat dibatalkan kapan saja."
-  free_links: 'Baca cara data Anda ditangani di <a href="{privacy_url}">kebijakan privasi</a>, atau pelajari lebih lanjut di <a href="{overview_url}">ulasan lengkap aplikasi</a>.'
+  free_links: 'Baca cara data Anda ditangani di <a href="[privacy_url]">kebijakan privasi</a>, atau pelajari lebih lanjut di <a href="[overview_url]">ulasan lengkap aplikasi</a>.'
   cta_h2: "Dapatkan Inventory & Stock Manager"
   cta_sub: "Tersedia di App Store untuk iPhone dan iPad."
 

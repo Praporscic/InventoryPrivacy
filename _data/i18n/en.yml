@@ -1,7 +1,7 @@
 # English (master). Every other language file must have exactly the same keys.
 # Plain-text fields are HTML-escaped by the templates. Fields that hold HTML (privacy `intro` and
 # section `body`, about `free_sub` and `free_links`) are output as-is, so write & as &amp; there.
-# Placeholders to keep untouched: {n}, {privacy_url}, {overview_url}.
+# Placeholders to keep untouched: [n], [privacy_url], [overview_url].
 site:
   description: "Inventory & Stock Manager is a free, offline inventory app for iPhone and iPad. Track products, sizes and stock levels, record sales and review your sales history. No account needed."
 
@@ -20,7 +20,7 @@ ui:
   download_aria: "Download Inventory & Stock Manager on the App Store"
   download_small: "Download on the"
   breadcrumb: "Breadcrumb"
-  min_read: "{n} min read"
+  min_read: "[n] min read"
   faq: "Frequently asked questions"
   cta_label: "Download the app"
   icon_alt: "Inventory & Stock Manager app icon"
@@ -193,7 +193,7 @@ about:
       p: "Filter by Low Stock or Out of Stock and see exactly what needs reordering."
   free_h2: "Free to start, Pro if you want more"
   free_sub: "The app is free to download and use, with no ads. <strong>Inventory Pro</strong> is an optional upgrade that unlocks the sales history. Subscriptions are managed through your Apple ID and can be cancelled at any time."
-  free_links: 'Read how your data is handled in the <a href="{privacy_url}">privacy policy</a>, or learn more in the <a href="{overview_url}">full app overview</a>.'
+  free_links: 'Read how your data is handled in the <a href="[privacy_url]">privacy policy</a>, or learn more in the <a href="[overview_url]">full app overview</a>.'
   cta_h2: "Get Inventory & Stock Manager"
   cta_sub: "Available on the App Store for iPhone and iPad."
 

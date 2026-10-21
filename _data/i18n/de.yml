@@ -16,7 +16,7 @@ ui:
   download_aria: "Inventory & Stock Manager im App Store laden"
   download_small: "Laden im"
   breadcrumb: "Brotkrümelnavigation"
-  min_read: "{n} Min. Lesezeit"
+  min_read: "[n] Min. Lesezeit"
   faq: "Häufig gestellte Fragen"
   cta_label: "App herunterladen"
   icon_alt: "App-Symbol von Inventory & Stock Manager"
@@ -188,7 +188,7 @@ about:
       p: "Filtere nach „Geringer Bestand“ oder „Nicht auf Lager“ und sieh genau, was nachbestellt werden muss."
   free_h2: "Kostenlos starten, Pro für mehr"
   free_sub: "Die App ist kostenlos zu laden und zu nutzen, ohne Werbung. <strong>Inventory Pro</strong> ist ein optionales Upgrade, das den Verkaufsverlauf freischaltet. Abonnements werden über deine Apple-ID verwaltet und können jederzeit gekündigt werden."
-  free_links: 'Wie mit deinen Daten umgegangen wird, liest du in der <a href="{privacy_url}">Datenschutzerklärung</a>, mehr erfährst du in der <a href="{overview_url}">ausführlichen App-Übersicht</a>.'
+  free_links: 'Wie mit deinen Daten umgegangen wird, liest du in der <a href="[privacy_url]">Datenschutzerklärung</a>, mehr erfährst du in der <a href="[overview_url]">ausführlichen App-Übersicht</a>.'
   cta_h2: "Inventory & Stock Manager laden"
   cta_sub: "Im App Store für iPhone und iPad erhältlich."
 
